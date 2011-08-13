@@ -1,0 +1,15 @@
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\bin\Debug\ProductSearch.pdb
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\MainWindow.baml
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\MainWindow.g.cs
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\App.g.cs
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch_MarkupCompile.cache
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.g.resources
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.Properties.Resources.resources
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.exe
+c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.pdb
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.exe
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.pdb
