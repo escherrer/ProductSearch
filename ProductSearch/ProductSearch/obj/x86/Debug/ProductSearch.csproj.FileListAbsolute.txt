@@ -30,3 +30,5 @@ C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GeneratedInternal
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch_MarkupCompile.lref
 C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe.config
 C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\log4net.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\Controls\WaitIndicator.baml
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\Controls\WaitIndicator.g.cs
