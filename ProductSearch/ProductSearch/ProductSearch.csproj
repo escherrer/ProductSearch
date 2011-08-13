@@ -80,6 +80,7 @@
       <DependentUpon>WaitIndicator.xaml</DependentUpon>
     </Compile>
     <Compile Include="Converters\CurrencyConverter.cs" />
+    <Compile Include="Converters\IsVisibleConverter.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Utility\ReflectionHelper.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />

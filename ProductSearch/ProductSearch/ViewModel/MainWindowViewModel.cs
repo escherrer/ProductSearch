@@ -7,28 +7,19 @@ namespace ProductSearch.ViewModel
     {
         private bool _isSearching;
 
-        public string SearchStatus
-        {
-            get
-            {
-                return IsSearching ? "Searching..." : "Search";
-            }
-        }
-
-        public decimal ProductPrice
+        public decimal? ProductPrice
         {
             get { return 25.55m; }
         }
 
-        private bool IsSearching
+        public bool IsSearching
         {
             get { return _isSearching; }
             set
             {
                 _isSearching = value; 
-                RaisePropertyChanged(ReflectionHelper.GetPropertyName(() => SearchStatus));
+                RaisePropertyChanged(ReflectionHelper.GetPropertyName(() => IsSearching));
             }
         }
-
     }
 }

@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Converters="clr-namespace:ProductSearch.Converters" xmlns:Controls="clr-namespace:ProductSearch.Controls" Title="Product Search" Height="395" Width="410">
   <Window.Resources>
     <Converters:CurrencyConverter x:Key="currencyConverter"/>
+    <Converters:IsVisibleConverter x:Key="isVisibleConverter"/>
   </Window.Resources>
     <Grid>
         <Button Name="btnSearch"
@@ -24,14 +25,15 @@
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Margin="27,145,0,0">
 
-        <Image/>
+        <Image Visibility="{Binding IsSearching, Converter={StaticResource isVisibleConverter}, ConverterParameter=true}"/>
 
-        <Controls:WaitIndicator Margin="21,17,20,76" />
+        <Controls:WaitIndicator Margin="21,17,20,76" Visibility="{Binding IsSearching, Converter={StaticResource isVisibleConverter}}"/>
 
         <TextBlock Text="Seaching..."
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom"
-                   Margin="0,0,0,40"/>
+                   Margin="0,0,0,40"
+                   Visibility="{Binding IsSearching, Converter={StaticResource isVisibleConverter}}"/>
         
       </Grid>
     </Grid>
