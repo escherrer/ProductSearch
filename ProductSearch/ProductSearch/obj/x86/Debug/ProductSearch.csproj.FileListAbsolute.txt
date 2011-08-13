@@ -24,3 +24,5 @@ C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.baml
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.g.cs
+C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\GalaSoft.MvvmLight.WPF4.xml

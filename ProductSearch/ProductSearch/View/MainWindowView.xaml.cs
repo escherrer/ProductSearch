@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using ProductSearch.ViewModel;
 
 namespace ProductSearch.View
 {
@@ -10,6 +11,10 @@ namespace ProductSearch.View
         public MainWindowView()
         {
             InitializeComponent();
+
+            var mainWindowViewModel = new MainWindowViewModel();
+
+            DataContext = mainWindowViewModel;
         }
     }
 }

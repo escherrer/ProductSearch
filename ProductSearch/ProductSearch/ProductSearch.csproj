@@ -37,6 +37,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight.WPF4, Version=3.0.0.28535, Culture=neutral, PublicKeyToken=63eb5c012e0b3c1c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThirdParty\MVVMLight\WPF4\GalaSoft.MvvmLight.WPF4.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -64,6 +68,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Utility\ReflectionHelper.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="View\MainWindowView.xaml.cs">
       <DependentUpon>MainWindowView.xaml</DependentUpon>

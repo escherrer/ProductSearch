@@ -4,7 +4,7 @@
         Title="Product Search" Height="395" Width="410">
     <Grid>
         <Button Name="button1"
-                Content="Button"
+                Content="{Binding SearchStatus}"
                 Height="40" Width="102"
                 HorizontalAlignment="Left" VerticalAlignment="Top" 
                 Margin="27,80,0,0"/>
