@@ -16,11 +16,11 @@ C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.pdb
 C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe
 C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\ProductSearch.pdb
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\MainWindow.baml
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\MainWindow.g.cs
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\App.g.cs
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch_MarkupCompile.cache
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.g.resources
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.Properties.Resources.resources
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.baml
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.g.cs
