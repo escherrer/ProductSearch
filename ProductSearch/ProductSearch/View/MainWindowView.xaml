@@ -6,23 +6,30 @@
     <Converters:IsVisibleConverter x:Key="isVisibleConverter"/>
   </Window.Resources>
     <Grid>
-        <Button Name="btnSearch"
-                Content="Search"
-                Height="40" Width="102"
-                HorizontalAlignment="Left" VerticalAlignment="Top" 
-                Margin="27,80,0,0"
-                Command="{Binding SearchCommand}"
-                CommandParameter="{Binding ElementName=txtProductName, Path=Text}"/>
-        <TextBox Name="txtProductName"
-                 Height="23" Width="120" 
+      <Button Name="btnSearch"
+              Content="Search"
+              Height="40" Width="102"
+              HorizontalAlignment="Left" VerticalAlignment="Top"
+              Margin="27,80,0,0"
+              Command="{Binding SearchCommand}"
+              CommandParameter="{Binding ElementName=txtProductName, Path=Text}"/>
+      <TextBox Name="txtProductName"
+               Height="23" Width="120"
+               HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="27,39,0,0"/>
+      <TextBlock Name="txtPrice"
+                 Height="23"
                  HorizontalAlignment="Left" VerticalAlignment="Top"
-                 Margin="27,39,0,0"/>
-        <TextBlock Name="txtPrice" 
-                   Height="23" 
-                   HorizontalAlignment="Left" VerticalAlignment="Top"
-                   TextAlignment="Left"
-                   Margin="27,333,0,0"
-                   Text="{Binding ProductPrice, Converter={StaticResource currencyConverter}, StringFormat=Price: {0}}" Width="121" />
+                 TextAlignment="Left"
+                 Margin="27,333,0,0"
+                 Text="{Binding ProductPrice, Converter={StaticResource currencyConverter}, StringFormat=Price: {0}}" Width="121" />
+
+      <TextBlock Name="txtErrorMesage" 
+                 Height="23" Width="231"
+                 Foreground="Red"
+                 HorizontalAlignment="Left" VerticalAlignment="Top"
+                 Margin="135,92,0,0" Text="{Binding ErrorMessage}" />
+      
       <Grid Name="grdImage" Height="151" Width="102"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Margin="27,145,0,0">
