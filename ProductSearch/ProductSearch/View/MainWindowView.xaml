@@ -10,7 +10,9 @@
                 Content="Search"
                 Height="40" Width="102"
                 HorizontalAlignment="Left" VerticalAlignment="Top" 
-                Margin="27,80,0,0"/>
+                Margin="27,80,0,0"
+                Command="{Binding SearchCommand}"
+                CommandParameter="{Binding ElementName=txtProductName, Path=Text}"/>
         <TextBox Name="txtProductName"
                  Height="23" Width="120" 
                  HorizontalAlignment="Left" VerticalAlignment="Top"
@@ -25,7 +27,9 @@
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Margin="27,145,0,0">
 
-        <Image Visibility="{Binding IsSearching, Converter={StaticResource isVisibleConverter}, ConverterParameter=true}"/>
+        <Image Name="imgProduct"
+               Source="{Binding ProductImage}"
+               Visibility="{Binding IsSearching, Converter={StaticResource isVisibleConverter}, ConverterParameter=true}"/>
 
         <Controls:WaitIndicator Margin="21,17,20,76" Visibility="{Binding IsSearching, Converter={StaticResource isVisibleConverter}}"/>
 
