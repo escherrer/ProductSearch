@@ -15,6 +15,11 @@ namespace ProductSearch.ViewModel
             }
         }
 
+        public decimal ProductPrice
+        {
+            get { return 25.55m; }
+        }
+
         private bool IsSearching
         {
             get { return _isSearching; }
