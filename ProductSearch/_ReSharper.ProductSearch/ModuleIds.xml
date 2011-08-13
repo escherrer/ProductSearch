@@ -1,3 +1,4 @@
 <Modules>
   <Module PersistentId="E6236A77-C699-4F89-A7C4-BD41D0617DB3" ModuleId="ProductSearch" />
+  <Module PersistentId="5600A69A-9F4D-4947-B1AD-84AD05348BC9" ModuleId="ProductSearch.Test" />
 </Modules>

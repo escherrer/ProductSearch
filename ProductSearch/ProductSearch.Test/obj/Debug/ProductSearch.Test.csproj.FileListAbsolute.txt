@@ -1,0 +1,5 @@
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\ProductSearch.Test.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\ProductSearch.Test.pdb
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\obj\Debug\ProductSearch.Test.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\obj\Debug\ProductSearch.Test.pdb
