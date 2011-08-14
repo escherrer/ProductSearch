@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="defcc1f3-b648-460a-bde2-cba49b279a07" name="escherrer@STANNIS 2011-08-14 14:07:22" runUser="REALTIMEPOS\escherrer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6952b63-5190-4850-acc6-2e7b5c513807">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="escherrer_STANNIS 2011-08-14 14_07_22" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-14T14:07:22.9270482-04:00" queuing="2011-08-14T14:07:23.2360791-04:00" start="2011-08-14T14:07:23.4160971-04:00" finish="2011-08-14T14:07:24.0231578-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="When_a_search_is_cancelled_it_should_return_failure_results" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="5a791b6d-7bb1-cf02-43ba-39f9cdcb9367">
+      <Execution timeOut="1800000" id="3aae9d55-4061-43ac-85bb-8e5bdae9d9af" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.SearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_is_cancelled_it_should_return_failure_results" />
+    </UnitTest>
+    <UnitTest name="When_a_search_finishes_successfully_it_should_return_success_results" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="180797e1-6c7b-08d1-f075-c3cf75de5e9c">
+      <Execution timeOut="1800000" id="fa37f75c-b39c-4cc8-8c53-b31b4f6b07bb" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.SearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_finishes_successfully_it_should_return_success_results" />
+    </UnitTest>
+    <UnitTest name="When_a_search_fails_it_should_return_failure_results" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="a4d8f80a-cc61-e6bb-26af-c569bf0fb3e0">
+      <Execution timeOut="1800000" id="fdff5364-320b-4675-954f-d5dee6fbb69c" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.SearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_fails_it_should_return_failure_results" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a4d8f80a-cc61-e6bb-26af-c569bf0fb3e0" executionId="fdff5364-320b-4675-954f-d5dee6fbb69c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="180797e1-6c7b-08d1-f075-c3cf75de5e9c" executionId="fa37f75c-b39c-4cc8-8c53-b31b4f6b07bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a791b6d-7bb1-cf02-43ba-39f9cdcb9367" executionId="3aae9d55-4061-43ac-85bb-8e5bdae9d9af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fdff5364-320b-4675-954f-d5dee6fbb69c" testId="a4d8f80a-cc61-e6bb-26af-c569bf0fb3e0" testName="When_a_search_fails_it_should_return_failure_results" computerName="STANNIS" duration="00:00:00.0104637" startTime="2011-08-14T14:07:23.4691024-04:00" endTime="2011-08-14T14:07:23.5241079-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdff5364-320b-4675-954f-d5dee6fbb69c">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa37f75c-b39c-4cc8-8c53-b31b4f6b07bb" testId="180797e1-6c7b-08d1-f075-c3cf75de5e9c" testName="When_a_search_finishes_successfully_it_should_return_success_results" computerName="STANNIS" duration="00:00:00.4358609" startTime="2011-08-14T14:07:23.5261081-04:00" endTime="2011-08-14T14:07:23.9631518-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa37f75c-b39c-4cc8-8c53-b31b4f6b07bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="3aae9d55-4061-43ac-85bb-8e5bdae9d9af" testId="5a791b6d-7bb1-cf02-43ba-39f9cdcb9367" testName="When_a_search_is_cancelled_it_should_return_failure_results" computerName="STANNIS" duration="00:00:00.0001072" startTime="2011-08-14T14:07:23.9641519-04:00" endTime="2011-08-14T14:07:23.9651520-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aae9d55-4061-43ac-85bb-8e5bdae9d9af">
+    </UnitTestResult>
+  </Results>
+</TestRun>

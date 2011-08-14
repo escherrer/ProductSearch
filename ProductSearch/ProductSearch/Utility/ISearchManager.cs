@@ -2,8 +2,9 @@
 
 namespace ProductSearch.Utility
 {
-    public interface ISearchManager
+    public interface IProductSearchManager
     {
+        void DoSearch(string productName);
         void ProcessSearchResults(ProductSearchResult results);
     }
 }

@@ -87,7 +87,7 @@
     <Compile Include="Utility\ISearchWorker.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Utility\ReflectionHelper.cs" />
-    <Compile Include="Utility\SearchWorker.cs" />
+    <Compile Include="Utility\ProductSearchWorker.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="View\MainWindowView.xaml.cs">
       <DependentUpon>MainWindowView.xaml</DependentUpon>
