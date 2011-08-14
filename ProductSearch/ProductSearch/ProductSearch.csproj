@@ -83,8 +83,11 @@
     <Compile Include="Converters\IsVisibleConverter.cs" />
     <Compile Include="DataAccess\Repository\IProductSearchRepository.cs" />
     <Compile Include="Model\ProductSearchResult.cs" />
+    <Compile Include="Utility\ISearchManager.cs" />
+    <Compile Include="Utility\ISearchWorker.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Utility\ReflectionHelper.cs" />
+    <Compile Include="Utility\SearchWorker.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="View\MainWindowView.xaml.cs">
       <DependentUpon>MainWindowView.xaml</DependentUpon>
@@ -117,7 +120,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataAccess\DataSource\" />
+    <Folder Include="DataAccess\Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,3 +8,5 @@ C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\GalaSoft.MvvmLig
 C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\log4net.dll
 C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\ProductSearch.pdb
 C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\Rhino.Mocks.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\Rhino.Mocks.xml

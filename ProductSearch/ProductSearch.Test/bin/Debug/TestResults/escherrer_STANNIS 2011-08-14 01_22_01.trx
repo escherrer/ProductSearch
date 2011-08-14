@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee884501-eb3b-4365-87be-8b0814e20eca" name="escherrer@STANNIS 2011-08-14 01:22:01" runUser="REALTIMEPOS\escherrer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6952b63-5190-4850-acc6-2e7b5c513807">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="escherrer_STANNIS 2011-08-14 01_22_01" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-14T01:22:01.7158391-04:00" queuing="2011-08-14T01:22:02.0287765-04:00" start="2011-08-14T01:22:02.1707481-04:00" finish="2011-08-14T01:22:02.6746473-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="When_a_search_finishes_successfully_it_should_return_success_results" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="180797e1-6c7b-08d1-f075-c3cf75de5e9c">
+      <Execution timeOut="1800000" id="91b207db-24cf-41b6-a9a2-07ee4d7583f8" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.SearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_finishes_successfully_it_should_return_success_results" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="180797e1-6c7b-08d1-f075-c3cf75de5e9c" executionId="91b207db-24cf-41b6-a9a2-07ee4d7583f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="91b207db-24cf-41b6-a9a2-07ee4d7583f8" testId="180797e1-6c7b-08d1-f075-c3cf75de5e9c" testName="When_a_search_finishes_successfully_it_should_return_success_results" computerName="STANNIS" duration="00:00:00.3504410" startTime="2011-08-14T01:22:02.2217379-04:00" endTime="2011-08-14T01:22:02.6176587-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91b207db-24cf-41b6-a9a2-07ee4d7583f8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ProductSearch.Test.SearchWorkerSpecs.When_a_search_finishes_successfully_it_should_return_success_results threw exception: 
+System.UriFormatException: Invalid URI: The URI is empty.</Message>
+          <StackTrace>    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at ProductSearch.Test.SearchWorkerSpecs.When_a_search_finishes_successfully_it_should_return_success_results() in C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\SearchWorkerSpecs.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,4 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProductSearch.DataAccess.Repository;
+using ProductSearch.Model;
+using ProductSearch.Utility;
+using Rhino.Mocks;
 
 namespace ProductSearch.Test
 {
@@ -14,7 +19,20 @@ namespace ProductSearch.Test
         [TestMethod]
         public void When_a_search_finishes_successfully_it_should_return_success_results()
         {
+            // Arrange
+            var mockSearchManager = MockRepository.GenerateMock<ISearchManager>();
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
+            var searchWorker = new SearchWorker(mockSearchManager.ProcessSearchResults, mockRepo);
+            var searchResult = new ProductSearchResult(false, true, string.Empty, 5);
 
+            mockRepo.Stub(x => x.Search("product")).Return(searchResult);
+
+            // Act
+            searchWorker.Search("product");
+
+            // Assert
+            mockRepo.AssertWasCalled(x => x.Search("product"));
+            mockSearchManager.AssertWasCalled(x => x.ProcessSearchResults(searchResult));
         }
 
         [TestMethod]
