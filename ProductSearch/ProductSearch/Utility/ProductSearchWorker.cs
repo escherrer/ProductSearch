@@ -7,6 +7,7 @@ namespace ProductSearch.Utility
 {
     public class ProductSearchWorker : IProductSearchWorker
     {
+        private static readonly Logger Log = new Logger(typeof(ProductSearchWorker));
         private readonly IProductSearchRepository _repo;
         private readonly Action<ProductSearchResult> _callback;
         private BackgroundWorker _searchWorker;
@@ -19,7 +20,7 @@ namespace ProductSearch.Utility
 
         public void BeginSearch(string productName)
         {
-            _searchWorker = new BackgroundWorker();
+            _searchWorker = new BackgroundWorker {WorkerSupportsCancellation = true};
             _searchWorker.DoWork += SearchWorkerDoWork;
             _searchWorker.RunWorkerCompleted += SearchWorkerCompleted;
 
@@ -34,19 +35,40 @@ namespace ProductSearch.Utility
 
         private void SearchWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            if (!e.Cancelled)
+            if (e.Cancelled)
             {
-                _callback.Invoke((ProductSearchResult)e.Result);
+                _callback.Invoke(new ProductSearchResult(true, false, string.Empty, null));
+            }
+            else
+            {
+                var result = (ProductSearchResult)e.Result;
+                _callback.Invoke(result);   
             }
         }
 
         private void SearchWorkerDoWork(object sender, DoWorkEventArgs e)
         {
-            var productName = (string)e.Argument;
+            ProductSearchResult result = null;
+            
+            try
+            {
+                var productName = (string)e.Argument;
 
-            var result = _repo.Search(productName);
+                result = _repo.Search(productName);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("SearchWorkerDoWork - Error.", ex);
 
-            e.Result = result;
+                result = new ProductSearchResult(false, true, string.Empty, null);
+            }
+            finally
+            {
+                if (((BackgroundWorker)sender).CancellationPending)
+                    e.Cancel = true;
+
+                e.Result = result;
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ namespace ProductSearch.Test
         [TestMethod]
         public void When_initializing_a_search_the_previous_search_should_be_disposed()
         {
-
+            
         }
 
         [TestMethod]

@@ -1,7 +1,4 @@
-﻿using System;
-using ProductSearch.Model;
-
-namespace ProductSearch.Utility
+﻿namespace ProductSearch.Utility
 {
     public interface IProductSearchWorker
     {

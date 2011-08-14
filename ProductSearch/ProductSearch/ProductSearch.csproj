@@ -83,8 +83,8 @@
     <Compile Include="Converters\IsVisibleConverter.cs" />
     <Compile Include="DataAccess\Repository\IProductSearchRepository.cs" />
     <Compile Include="Model\ProductSearchResult.cs" />
-    <Compile Include="Utility\ISearchManager.cs" />
-    <Compile Include="Utility\ISearchWorker.cs" />
+    <Compile Include="Utility\IProductSearchManager.cs" />
+    <Compile Include="Utility\IProductSearchWorker.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Utility\ReflectionHelper.cs" />
     <Compile Include="Utility\ProductSearchWorker.cs" />
