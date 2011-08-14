@@ -8,9 +8,50 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:Logger.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Controls/f:WaitIndicator.xaml.cs" caret="30" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Controls/f:WaitIndicator.xaml" caret="35" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/f:App.xaml.cs" caret="294" fromTop="15" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/f:App.config" caret="1038" fromTop="30" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Converters/f:IsVisibleConverter.cs" caret="882" fromTop="27" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="1655" fromTop="15" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="940" fromTop="30" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="511" fromTop="22" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="645" fromTop="32" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:ISearchRepository.cs" caret="182" fromTop="9" />
     </RecentFiles>
-    <RecentEdits />
+    <RecentEdits>
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="2471" fromTop="12" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="1054" fromTop="18" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="872" fromTop="14" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="797" fromTop="28" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="696" fromTop="22" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="698" fromTop="23" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="1655" fromTop="15" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="75" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="1350" fromTop="47" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="747" fromTop="23" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="584" fromTop="17" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="208" fromTop="7" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="958" fromTop="30" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="147" fromTop="9" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="251" fromTop="31" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="0" fromTop="0" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="251" fromTop="17" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="86" fromTop="3" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="337" fromTop="14" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="390" fromTop="19" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="468" fromTop="20" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="514" fromTop="25" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="607" fromTop="26" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="534" fromTop="19" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="400" fromTop="19" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="647" fromTop="29" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="496" fromTop="20" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="654" fromTop="32" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:ISearchRepository.cs" caret="182" fromTop="12" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:ISearchRepository.cs" caret="96" fromTop="4" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -23,4 +64,87 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="StartupUri" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="ViewModel" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="new" priority="2" />
+      <Item value="Startup" priority="0" />
+      <Item value="_contentLoaded" priority="0" />
+      <Item value="mainWindowView" priority="2" />
+      <Item value="mainWindowViewModel" priority="1" />
+      <Item value="MainWindow" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="DataContext" priority="0" />
+      <Item value="public" priority="5" />
+      <Item value="bool" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="_isSearching" priority="2" />
+      <Item value="value" priority="2" />
+      <Item value="private" priority="2" />
+      <Item value="return" priority="3" />
+      <Item value="RaisePropertyChanged`0" priority="0" />
+      <Item value="SearchStatus" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="decimal" priority="0" />
+      <Item value="Left" priority="0" />
+      <Item value="log4net" priority="0" />
+      <Item value="Appender" priority="0" />
+      <Item value="LogManager`0" priority="0" />
+      <Item value="Config" priority="1" />
+      <Item value="ILog`0" priority="0" />
+      <Item value="XmlConfigurator`0" priority="0" />
+      <Item value="Center" priority="3" />
+      <Item value="TextBlock`0" priority="0" />
+      <Item value="Bottom" priority="0" />
+      <Item value="IsSearching" priority="1" />
+      <Item value="SearchCommand" priority="0" />
+      <Item value="RelayCommand&lt;string&gt;" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="Uri" priority="0" />
+      <Item value="ProductImage" priority="1" />
+      <Item value="ErrorMessage" priority="1" />
+      <Item value="ProductPrice" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="true" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.View.MainWindowView">
+      <Item value="DataContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Data.Binding">
+      <Item value="Converter" priority="0" />
+      <Item value="StringFormat" priority="0" />
+      <Item value="ConverterParameter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Window">
+      <Item value="Resources" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="TextAlignment" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="HorizontalAlignment`0" priority="0" />
+      <Item value="VerticalAlignment" priority="0" />
+      <Item value="Foreground" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.Config.XmlConfigurator">
+      <Item value="Configure`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Controls.WaitIndicator">
+      <Item value="HorizontalAlignment" priority="0" />
+      <Item value="VerticalAlignment" priority="0" />
+      <Item value="Visibility" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="CommandParameter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Image">
+      <Item value="Source" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

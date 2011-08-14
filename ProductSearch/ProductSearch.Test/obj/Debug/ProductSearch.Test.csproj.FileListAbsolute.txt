@@ -3,3 +3,8 @@ C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\ProductSearch.Te
 C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\obj\Debug\ResolveAssemblyReference.cache
 C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\obj\Debug\ProductSearch.Test.dll
 C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\obj\Debug\ProductSearch.Test.pdb
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\ProductSearch.exe
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\log4net.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\ProductSearch.pdb
+C:\Git\ProductSearch\ProductSearch\ProductSearch.Test\bin\Debug\GalaSoft.MvvmLight.WPF4.xml

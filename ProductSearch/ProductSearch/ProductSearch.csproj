@@ -81,6 +81,8 @@
     </Compile>
     <Compile Include="Converters\CurrencyConverter.cs" />
     <Compile Include="Converters\IsVisibleConverter.cs" />
+    <Compile Include="DataAccess\Repository\IProductSearchRepository.cs" />
+    <Compile Include="Model\ProductSearchResult.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Utility\ReflectionHelper.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
@@ -116,8 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\DataSource\" />
-    <Folder Include="DataAccess\Repository\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
