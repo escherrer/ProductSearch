@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProductSearch.DataAccess.Repository;
 using ProductSearch.Model;
 using ProductSearch.Utility;
+using Remix;
 using Rhino.Mocks;
 
 namespace ProductSearch.Test
@@ -27,26 +28,26 @@ namespace ProductSearch.Test
             mockRepo.Stub(x => x.Search("product1")).Do((Func<string, ProductSearchResult>) delegate
             {
                 Thread.Sleep(1000);
-                return new ProductSearchResult(false, false, "product1Url", 5m);
+                return new ProductSearchResult(false, false, new Product("product1Url", "5m"));
             });
 
             mockRepo.Stub(x => x.Search("product2")).Do((Func<string, ProductSearchResult>)delegate
             {
                 Thread.Sleep(200);
-                return new ProductSearchResult(false, false, "product2Url", 5m);
+                return new ProductSearchResult(false, false, new Product("product2Url", "5m"));
             });
 
             mockRepo.Stub(x => x.Search("product3")).Do((Func<string, ProductSearchResult>)delegate
             {
                 Thread.Sleep(500);
-                return new ProductSearchResult(false, false, "product3Url", 5m);
+                return new ProductSearchResult(false, false, new Product("product3Url", "5m"));
             });
 
             var productSearchManager = new ProductSearchManager();
             productSearchManager.ResultsRecieved += (results) =>
                                                         {
                                                             callbacks++;
-                                                            lastReturnedProduct = results.ImageUrl;
+                                                            lastReturnedProduct = results.Product.imageUrl;
                                                         };
 
             productSearchManager.DoSearch("product1", mockRepo);

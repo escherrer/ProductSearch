@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -81,16 +82,21 @@
     </Compile>
     <Compile Include="Converters\CurrencyConverter.cs" />
     <Compile Include="Converters\IsVisibleConverter.cs" />
+    <Compile Include="DataAccess\Repository\BestBuyProductRepository.cs" />
     <Compile Include="DataAccess\Repository\IProductSearchRepository.cs" />
     <Compile Include="Exceptions\AlreadySearchingException.cs" />
     <Compile Include="Exceptions\NoSearchToCancelException.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\Products.cs" />
     <Compile Include="Model\ProductSearchResult.cs" />
+    <Compile Include="Model\Store.cs" />
     <Compile Include="Utility\IProductSearchManager.cs" />
     <Compile Include="Utility\IProductSearchWorker.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Utility\ProductSearchManager.cs" />
     <Compile Include="Utility\ReflectionHelper.cs" />
     <Compile Include="Utility\ProductSearchWorker.cs" />
+    <Compile Include="Utility\UTF8XmlSerializer.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="View\MainWindowView.xaml.cs">
       <DependentUpon>MainWindowView.xaml</DependentUpon>
@@ -124,6 +130,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\Service\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Images\invalid_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Images\no_image.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

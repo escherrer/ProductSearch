@@ -11,24 +11,24 @@ c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSe
 c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.write.1.tlog
 c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.exe
 c:\users\escherrer\documents\visual studio 2010\Projects\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.pdb
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.exe
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.pdb
+C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe.config
 C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe
 C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\ProductSearch.pdb
+C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\log4net.dll
+C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\Controls\WaitIndicator.baml
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\Controls\WaitIndicator.g.cs
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.g.cs
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\App.g.cs
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch_MarkupCompile.cache
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch_MarkupCompile.lref
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.baml
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.g.resources
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.Properties.Resources.resources
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.baml
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\View\MainWindowView.g.cs
-C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
-C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch_MarkupCompile.lref
-C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe.config
-C:\Git\ProductSearch\ProductSearch\ProductSearch\bin\Debug\log4net.dll
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\Controls\WaitIndicator.baml
-C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\Controls\WaitIndicator.g.cs
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.exe
+C:\Git\ProductSearch\ProductSearch\ProductSearch\obj\x86\Debug\ProductSearch.pdb

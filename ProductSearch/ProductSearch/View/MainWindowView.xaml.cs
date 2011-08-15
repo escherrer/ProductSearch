@@ -15,6 +15,8 @@ namespace ProductSearch.View
             var mainWindowViewModel = new MainWindowViewModel();
 
             DataContext = mainWindowViewModel;
+
+            Loaded += (sender, e) => txtProductName.Focus();
         }
     }
 }

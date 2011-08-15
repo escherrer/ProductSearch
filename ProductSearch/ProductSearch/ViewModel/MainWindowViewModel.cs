@@ -1,21 +1,31 @@
 ﻿using System;
+using System.Drawing;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
+using ProductSearch.DataAccess.Repository;
+using ProductSearch.Model;
+using ProductSearch.Properties;
 using ProductSearch.Utility;
 
 namespace ProductSearch.ViewModel
 {
     public class MainWindowViewModel : ViewModelBase
     {
+        private readonly ProductSearchManager _productSearchManager;
+        private readonly IProductSearchRepository _productSearchRepository;
+        private const string SearchResultDisplayError = "* Error displaying results.";
+        private const string SearchResultRetrievalError = "* Error retrieving results.";
+        private const string SearchResultCriteriaError = "* Please enter a valid product name.";
+        private const string NoResults = "* No products found matching criteria.";
+
         public MainWindowViewModel()
         {
             SearchCommand = new RelayCommand<string>(DoSearch);
 
-            // Test
-            ProductImage = new Uri("http://images.bestbuy.com/BestBuy_US/images/products/9321/9321245_sc.jpg");
-            ErrorMessage = "* Unable to blah blah blah.";
-            ProductPrice = 25.55m;
-            IsSearching = true;
+            _productSearchManager = new ProductSearchManager();
+            _productSearchManager.ResultsRecieved += ProductSearchManagerResultsRecieved;
+
+            _productSearchRepository = new BestBuyProductRepository();
         }
 
         public decimal? ProductPrice { get; set; }
@@ -30,7 +40,21 @@ namespace ProductSearch.ViewModel
 
         private void DoSearch(string productName)
         {
+            if (string.IsNullOrEmpty(productName))
+            {
+                ErrorMessage = SearchResultCriteriaError;
+            }
+            else
+            {
+                ProductImage = null;
+                ProductPrice = null;
+                ErrorMessage = string.Empty;
 
+                IsSearching = true;
+                _productSearchManager.DoSearch(productName, _productSearchRepository);
+            }
+
+            RefreshUi();
         }
 
         private void RefreshUi()
@@ -39,6 +63,52 @@ namespace ProductSearch.ViewModel
             RaisePropertyChanged(ReflectionHelper.GetPropertyName(() => ProductImage));
             RaisePropertyChanged(ReflectionHelper.GetPropertyName(() => ProductPrice));
             RaisePropertyChanged(ReflectionHelper.GetPropertyName(() => ErrorMessage));
+        }
+
+        private void ProductSearchManagerResultsRecieved(ProductSearchResult result)
+        {
+            if (result.HasError)
+            {
+                ErrorMessage = SearchResultRetrievalError;
+            }
+            else if (result.Product == null)
+            {
+                ErrorMessage = NoResults;
+            }
+            else
+            {
+                try
+                {
+                    ErrorMessage = string.Empty;
+                    ProductPrice = decimal.Parse(result.Product.SalePrice);
+                    ProductImage = SetProductImage(result.Product.imageUrl);
+                }
+                catch
+                {
+                    ErrorMessage = SearchResultDisplayError;
+                }
+            }
+
+            IsSearching = false;
+
+            RefreshUi();
+        }
+
+        private static Uri SetProductImage(string imageUrl)
+        {
+            if (string.IsNullOrEmpty(imageUrl))
+            {
+                return new Uri("Images/no_image.jpg", UriKind.Relative);
+            }
+
+            try
+            {
+                return new Uri(imageUrl);
+            }
+            catch
+            {
+                return new Uri("Images/invalid_image.jpg", UriKind.Relative);
+            }
         }
     }
 }

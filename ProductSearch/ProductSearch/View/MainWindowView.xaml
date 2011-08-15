@@ -12,7 +12,8 @@
               HorizontalAlignment="Left" VerticalAlignment="Top"
               Margin="27,80,0,0"
               Command="{Binding SearchCommand}"
-              CommandParameter="{Binding ElementName=txtProductName, Path=Text}"/>
+              CommandParameter="{Binding ElementName=txtProductName, Path=Text}"
+              IsDefault="true"/>
       <TextBox Name="txtProductName"
                Height="23" Width="120"
                HorizontalAlignment="Left" VerticalAlignment="Top"

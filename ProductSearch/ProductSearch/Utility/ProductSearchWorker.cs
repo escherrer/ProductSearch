@@ -43,7 +43,7 @@ namespace ProductSearch.Utility
         {
             if (e.Cancelled)
             {
-                _callback.Invoke(new ProductSearchResult(true, false, string.Empty, null));
+                _callback.Invoke(new ProductSearchResult(true, false, null));
             }
             else
             {
@@ -66,7 +66,7 @@ namespace ProductSearch.Utility
             {
                 Log.Error("SearchWorkerDoWork - Error.", ex);
 
-                result = new ProductSearchResult(false, true, string.Empty, null);
+                result = new ProductSearchResult(false, true, null);
             }
             finally
             {
