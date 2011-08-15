@@ -32,7 +32,7 @@ namespace ProductSearch.Test
 
             mockRepo.Stub(x => x.Search("product2")).Do((Func<string, ProductSearchResult>)delegate
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(200);
                 return new ProductSearchResult(false, false, "product2Url", 5m);
             });
 
