@@ -16,7 +16,7 @@ namespace ProductSearch.DataAccess.Repository
     public class BestBuyProductRepository : IProductSearchRepository
     {
         private static readonly Logger Log = new Logger(typeof(BestBuyProductRepository));
-        private const string SearchUrl = "http://api.remix.bestbuy.com/v1/products(name='{0}')?apiKey=x4p9sbyznrgjnxwdadqz25qe";
+        private const string SearchUrl = "http://api.remix.bestbuy.com/v1/products(name='{0}*')?apiKey=x4p9sbyznrgjnxwdadqz25qe";
 
         public ProductSearchResult Search(string criteria)
         {
@@ -25,7 +25,7 @@ namespace ProductSearch.DataAccess.Repository
             return new ProductSearchResult(false, false, results.FirstOrDefault());
         }
 
-        private string GetOutputFromUrl(string url)
+        private static string GetOutputFromUrl(string url)
         {
             try
             {
@@ -59,11 +59,10 @@ namespace ProductSearch.DataAccess.Repository
                 return null;
             }
         }
-
-
-        private IEnumerable<Product> GetProduct(string productName)
+        
+        private static IEnumerable<Product> GetProduct(string productName)
         {
-            var searchUrl = string.Format(SearchUrl, productName + "*");
+            var searchUrl = string.Format(SearchUrl, productName);
 
             var output = GetOutputFromUrl(searchUrl);
 
