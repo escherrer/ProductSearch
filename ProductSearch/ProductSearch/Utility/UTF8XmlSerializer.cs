@@ -21,9 +21,9 @@ using System.Xml.Serialization;
 using System.Xml;
 using System.IO;
 
-namespace Remix
+namespace ProductSearch.Utility
 {
-    public class UTF8XmlSerializer
+    public class Utf8XmlSerializer
     {
         public static string Serialize<T>(T obj)
         {

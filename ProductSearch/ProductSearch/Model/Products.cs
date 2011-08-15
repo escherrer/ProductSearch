@@ -24,11 +24,10 @@
  * THE SOFTWARE.
 */
 using System.Collections.Generic;
-using System.Text;
-using System.Xml;
 using System.Xml.Serialization;
+using ProductSearch.Utility;
 
-namespace Remix
+namespace ProductSearch.Model
 {
     [XmlRoot("products")]
     public class Products : List<Product>
@@ -101,7 +100,7 @@ namespace Remix
 
         public string ToXml()
         {
-            return UTF8XmlSerializer.Serialize(this);
+            return Utf8XmlSerializer.Serialize(this);
         }
     }
 }

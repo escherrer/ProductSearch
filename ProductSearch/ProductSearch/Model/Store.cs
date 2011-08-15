@@ -23,13 +23,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
 */
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml;
-using System.Xml.Serialization;
 
-namespace Remix
+using System;
+using System.Xml.Serialization;
+using ProductSearch.Utility;
+
+namespace ProductSearch.Model
 {
     [XmlType("store")]
     public class Store
@@ -116,7 +115,7 @@ namespace Remix
 
         public String ToXml()
         {
-            return UTF8XmlSerializer.Serialize(this);
+            return Utf8XmlSerializer.Serialize(this);
         }
     }
 }

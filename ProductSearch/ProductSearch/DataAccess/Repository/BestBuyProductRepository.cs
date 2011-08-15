@@ -5,7 +5,11 @@ using System.Linq;
 using System.Net;
 using ProductSearch.Model;
 using ProductSearch.Utility;
-using Remix;
+
+/*
+ * Parts obtained from Remix.NET
+ * http://code.google.com/p/remixdotnet/
+ */
 
 namespace ProductSearch.DataAccess.Repository
 {
@@ -21,13 +25,12 @@ namespace ProductSearch.DataAccess.Repository
             return new ProductSearchResult(false, false, results.FirstOrDefault());
         }
 
-        private string Get(string url)
+        private string GetOutputFromUrl(string url)
         {
             try
             {
                 // Create the web request   
                 var request = WebRequest.Create(url) as HttpWebRequest;
-                //request.Headers.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.ASCII.GetBytes(this.user + ":" + this.pass)));
 
                 // HACK: Fixes "417 Expectation Failed".
                 ServicePointManager.Expect100Continue = false;
@@ -62,7 +65,10 @@ namespace ProductSearch.DataAccess.Repository
         {
             var searchUrl = string.Format(SearchUrl, productName + "*");
 
-            var p = UTF8XmlSerializer.Deserialize<Products>(Get(searchUrl));
+            var output = GetOutputFromUrl(searchUrl);
+
+            var p = Utf8XmlSerializer.Deserialize<Products>(output);
+
             return p;
         }
 

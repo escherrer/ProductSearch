@@ -4,7 +4,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProductSearch.DataAccess.Repository;
 using ProductSearch.Model;
 using ProductSearch.Utility;
-using Remix;
 using Rhino.Mocks;
 
 namespace ProductSearch.Test

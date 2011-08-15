@@ -1,6 +1,4 @@
-﻿using Remix;
-
-namespace ProductSearch.Model
+﻿namespace ProductSearch.Model
 {
     public class ProductSearchResult
     {

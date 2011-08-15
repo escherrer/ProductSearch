@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
+using ProductSearch.Utility;
 
-namespace Remix
+namespace ProductSearch.Model
 {
     [XmlType("product")]
     public class Product
@@ -93,7 +94,7 @@ namespace Remix
 
         public String ToXml()
         {
-            return UTF8XmlSerializer.Serialize(this);
+            return Utf8XmlSerializer.Serialize(this);
         }
     }
 }
