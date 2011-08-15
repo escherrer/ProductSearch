@@ -1,4 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProductSearch.DataAccess.Repository;
+using Rhino.Mocks;
 
 namespace ProductSearch.Test
 {
@@ -14,7 +16,12 @@ namespace ProductSearch.Test
         [TestMethod]
         public void When_initializing_a_search_the_previous_search_should_be_cancelled()
         {
-                        
+            var repo1 = MockRepository.GenerateMock<IProductSearchRepository>();
+            var repo2 = MockRepository.GenerateMock<IProductSearchRepository>();
+            var repo3 = MockRepository.GenerateMock<IProductSearchRepository>();
+
+
+
         }
 
         [TestMethod]

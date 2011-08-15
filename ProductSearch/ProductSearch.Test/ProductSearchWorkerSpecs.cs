@@ -49,6 +49,7 @@ namespace ProductSearch.Test
             // Assert
             mockRepo.AssertWasCalled(x => x.Search("product"));
             Assert.AreSame(searchResult, results);
+            Assert.IsFalse(results.IsCancelled);
         }
 
         [TestMethod]
@@ -132,6 +133,40 @@ namespace ProductSearch.Test
 
             // Assert
             Assert.IsNotNull(ex);
+        }
+
+        [TestMethod]
+        public void When_a_search_is_performed_and_the_repository_fails_results_indicate_an_error_occurred()
+        {
+            var isComplete = false;
+            ProductSearchResult results = null;
+
+            // Arrange
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
+            var searchResult = new ProductSearchResult(false, false, string.Empty, 5);
+
+            mockRepo.Stub(x => x.Search("product")).Do((Func<string, ProductSearchResult>)delegate
+            {
+                throw new Exception();
+            });
+
+            var searchWorker = new ProductSearchWorker(mockRepo, (cb) =>
+            {
+                isComplete = true;
+                results = cb;
+            });
+
+            // Act
+            searchWorker.BeginSearch("product");
+
+            while (!isComplete)
+            {
+                Thread.Sleep(1000);
+            }
+
+            // Assert
+            mockRepo.AssertWasCalled(x => x.Search("product"));
+            Assert.IsTrue(results.HasError);
         }
     }
 }
