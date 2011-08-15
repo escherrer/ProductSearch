@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Drawing;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using ProductSearch.DataAccess.Repository;
 using ProductSearch.Model;
-using ProductSearch.Properties;
 using ProductSearch.Utility;
 
 namespace ProductSearch.ViewModel
