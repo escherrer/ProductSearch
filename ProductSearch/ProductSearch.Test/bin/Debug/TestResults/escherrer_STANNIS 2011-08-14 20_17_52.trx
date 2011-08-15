@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="89338ccc-16ed-4f4c-9967-29351b80c71c" name="escherrer@STANNIS 2011-08-14 20:17:52" runUser="REALTIMEPOS\escherrer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6952b63-5190-4850-acc6-2e7b5c513807">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="escherrer_STANNIS 2011-08-14 20_17_52" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-14T20:17:52.6740623-04:00" queuing="2011-08-14T20:17:52.9470623-04:00" start="2011-08-14T20:17:53.0880623-04:00" finish="2011-08-14T20:17:59.5630623-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="A_product_search_worker_can_only_be_fired_off_once" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="724c19a4-1167-2707-e7e6-c4b41042cf2d">
+      <Execution timeOut="1800000" id="ac95b67a-ba98-4820-94ee-fa20a6715929" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductSearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="A_product_search_worker_can_only_be_fired_off_once" />
+    </UnitTest>
+    <UnitTest name="When_a_search_is_performed_it_queries_the_repo_and_returns_results_asyncronously" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="d6b1356a-3806-48ad-bb0d-e27475158d2a">
+      <Execution timeOut="1800000" id="46239362-e988-4107-84cb-7bcd939ddff6" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductSearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_is_performed_it_queries_the_repo_and_returns_results_asyncronously" />
+    </UnitTest>
+    <UnitTest name="When_a_search_is_cancelled_it_calls_back_with_a_cancelled_result" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="beb8a403-a833-dcca-7429-520795433071">
+      <Execution timeOut="1800000" id="144fde9e-5767-4744-a332-225c39513efd" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductSearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_is_cancelled_it_calls_back_with_a_cancelled_result" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="724c19a4-1167-2707-e7e6-c4b41042cf2d" executionId="ac95b67a-ba98-4820-94ee-fa20a6715929" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="beb8a403-a833-dcca-7429-520795433071" executionId="144fde9e-5767-4744-a332-225c39513efd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6b1356a-3806-48ad-bb0d-e27475158d2a" executionId="46239362-e988-4107-84cb-7bcd939ddff6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ac95b67a-ba98-4820-94ee-fa20a6715929" testId="724c19a4-1167-2707-e7e6-c4b41042cf2d" testName="A_product_search_worker_can_only_be_fired_off_once" computerName="STANNIS" duration="00:00:00.2664371" startTime="2011-08-14T20:17:53.1330623-04:00" endTime="2011-08-14T20:17:53.4510623-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac95b67a-ba98-4820-94ee-fa20a6715929">
+    </UnitTestResult>
+    <UnitTestResult executionId="144fde9e-5767-4744-a332-225c39513efd" testId="beb8a403-a833-dcca-7429-520795433071" testName="When_a_search_is_cancelled_it_calls_back_with_a_cancelled_result" computerName="STANNIS" duration="00:00:05.0030091" startTime="2011-08-14T20:17:53.4530623-04:00" endTime="2011-08-14T20:17:58.4560623-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="144fde9e-5767-4744-a332-225c39513efd">
+    </UnitTestResult>
+    <UnitTestResult executionId="46239362-e988-4107-84cb-7bcd939ddff6" testId="d6b1356a-3806-48ad-bb0d-e27475158d2a" testName="When_a_search_is_performed_it_queries_the_repo_and_returns_results_asyncronously" computerName="STANNIS" duration="00:00:01.0108015" startTime="2011-08-14T20:17:58.4580623-04:00" endTime="2011-08-14T20:17:59.4690623-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46239362-e988-4107-84cb-7bcd939ddff6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

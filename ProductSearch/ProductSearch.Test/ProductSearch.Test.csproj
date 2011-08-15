@@ -49,16 +49,18 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mocks\MockProductSearchRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchManagerSpecs.cs" />
-    <Compile Include="SearchWorkerSpecs.cs" />
+    <Compile Include="ProductSearchManagerSpecs.cs" />
+    <Compile Include="ProductSearchWorkerSpecs.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProductSearch\ProductSearch.csproj">
       <Project>{E6236A77-C699-4F89-A7C4-BD41D0617DB3}</Project>
       <Name>ProductSearch</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mocks\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

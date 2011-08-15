@@ -82,10 +82,13 @@
     <Compile Include="Converters\CurrencyConverter.cs" />
     <Compile Include="Converters\IsVisibleConverter.cs" />
     <Compile Include="DataAccess\Repository\IProductSearchRepository.cs" />
+    <Compile Include="Exceptions\AlreadySearchingException.cs" />
+    <Compile Include="Exceptions\NoSearchToCancelException.cs" />
     <Compile Include="Model\ProductSearchResult.cs" />
     <Compile Include="Utility\IProductSearchManager.cs" />
     <Compile Include="Utility\IProductSearchWorker.cs" />
     <Compile Include="Utility\Logger.cs" />
+    <Compile Include="Utility\ProductSearchManager.cs" />
     <Compile Include="Utility\ReflectionHelper.cs" />
     <Compile Include="Utility\ProductSearchWorker.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />

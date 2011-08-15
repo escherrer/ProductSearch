@@ -2,6 +2,7 @@
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProductSearch.DataAccess.Repository;
+using ProductSearch.Exceptions;
 using ProductSearch.Model;
 using ProductSearch.Utility;
 using Rhino.Mocks;
@@ -9,7 +10,7 @@ using Rhino.Mocks;
 namespace ProductSearch.Test
 {
     [TestClass]
-    public class SearchWorkerSpecs
+    public class ProductSearchWorkerSpecs
     {
         [TestInitialize]
         public void MyTestInitialize()
@@ -78,6 +79,59 @@ namespace ProductSearch.Test
 
             // Assert
             Assert.IsTrue(results.IsCancelled);
+        }
+
+        [TestMethod]
+        public void A_product_search_worker_can_only_be_fired_off_once()
+        {
+            // Arrange
+            Exception ex = null;
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
+            var searchResult = new ProductSearchResult(false, false, string.Empty, 5);
+
+            mockRepo.Stub(x => x.Search("product")).Return(searchResult);
+
+            var searchWorker = new ProductSearchWorker(mockRepo, (cb) => { });
+
+            // Act
+            searchWorker.BeginSearch("product");
+
+            try
+            {
+                searchWorker.BeginSearch("product");
+            }
+            catch (AlreadySearchingException e)
+            {
+                ex = e;
+            }
+
+            // Assert
+            Assert.IsNotNull(ex);
+        }
+
+        [TestMethod]
+        public void A_product_search_worker_can_only_be_cancelled_if_there_has_been_a_search()
+        {
+            // Arrange
+            Exception ex = null;
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
+            var searchResult = new ProductSearchResult(false, false, string.Empty, 5);
+
+            mockRepo.Stub(x => x.Search("product")).Return(searchResult);
+
+            var searchWorker = new ProductSearchWorker(mockRepo, (cb) => { });
+
+            try
+            {
+                searchWorker.CancelSearch();
+            }
+            catch (NoSearchToCancelException e)
+            {
+                ex = e;
+            }
+
+            // Assert
+            Assert.IsNotNull(ex);
         }
     }
 }
