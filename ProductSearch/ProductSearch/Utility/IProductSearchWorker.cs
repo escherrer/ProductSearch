@@ -1,6 +1,8 @@
-﻿namespace ProductSearch.Utility
+﻿using System;
+
+namespace ProductSearch.Utility
 {
-    public interface IProductSearchWorker
+    public interface IProductSearchWorker :  IDisposable
     {
         void CancelSearch();
     }

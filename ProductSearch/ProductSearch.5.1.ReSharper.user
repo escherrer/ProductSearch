@@ -12,53 +12,33 @@
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Controls/f:WaitIndicator.xaml" caret="35" fromTop="0" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/f:App.xaml.cs" caret="294" fromTop="15" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/f:App.config" caret="1038" fromTop="30" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="639" fromTop="10" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml.cs" caret="431" fromTop="17" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:IProductSearchManager.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:IProductSearchWorker.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ReflectionHelper.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:AlreadySearchingException.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:NoSearchToCancelException.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:IProductSearchRepository.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:NoSearchToCancelException.cs" caret="134" fromTop="6" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:AlreadySearchingException.cs" caret="327" fromTop="10" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="87" fromTop="2" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchManager.cs" caret="571" fromTop="17" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="3221" fromTop="98" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="213" fromTop="6" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="405" fromTop="6" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="836" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Store.cs" caret="3780" fromTop="117" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:UTF8XmlSerializer.cs" caret="1357" fromTop="24" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Products.cs" caret="2217" fromTop="21" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Product.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:Logger.cs" caret="919" fromTop="41" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:ProductSearchResult.cs" caret="456" fromTop="15" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Converters/f:CurrencyConverter.cs" caret="0" fromTop="0" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Converters/f:IsVisibleConverter.cs" caret="818" fromTop="24" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:UTF8XmlSerializer.cs" caret="1642" fromTop="47" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Product.cs" caret="2840" fromTop="100" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Products.cs" caret="3388" fromTop="107" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Store.cs" caret="1267" fromTop="19" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:ProductSearchResult.cs" caret="456" fromTop="15" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="2402" fromTop="28" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="0" fromTop="0" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="836" fromTop="19" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:Logger.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchManager.cs" caret="0" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="1035" fromTop="27" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ReflectionHelper.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="252" fromTop="6" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:IProductSearchWorker.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:IProductSearchRepository.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:IProductSearchManager.cs" caret="321" fromTop="12" />
     </RecentFiles>
     <RecentEdits>
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="939" fromTop="28" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="1195" fromTop="22" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="1463" fromTop="28" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="1870" fromTop="35" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="782" fromTop="16" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="2704" fromTop="31" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="1737" fromTop="29" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3661" fromTop="36" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="2972" fromTop="15" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3523" fromTop="28" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="1220" fromTop="24" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3259" fromTop="22" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3699" fromTop="21" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3401" fromTop="26" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3616" fromTop="35" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="13" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="2354" fromTop="28" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Products.cs" caret="3388" fromTop="25" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="1046" fromTop="16" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="250" fromTop="14" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="245" fromTop="11" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:UTF8XmlSerializer.cs" caret="1642" fromTop="47" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:UTF8XmlSerializer.cs" caret="1649" fromTop="47" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Product.cs" caret="2840" fromTop="100" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Products.cs" caret="3388" fromTop="107" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Store.cs" caret="3761" fromTop="32" />
@@ -67,6 +47,26 @@
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="864" fromTop="13" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="566" fromTop="9" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="2221" fromTop="17" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="2426" fromTop="16" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:IProductSearchWorker.cs" caret="86" fromTop="4" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="606" fromTop="15" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="719" fromTop="20" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="799" fromTop="21" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="1145" fromTop="30" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:AlreadySearchingException.cs" caret="327" fromTop="10" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:NoSearchToCancelException.cs" caret="134" fromTop="6" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="87" fromTop="2" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchManager.cs" caret="558" fromTop="15" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="2426" fromTop="16" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="137" fromTop="4" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="1138" fromTop="21" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="974" fromTop="18" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="2112" fromTop="27" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="2262" fromTop="32" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="3037" fromTop="25" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="3221" fromTop="30" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="405" fromTop="6" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:UTF8XmlSerializer.cs" caret="934" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -157,7 +157,7 @@
       <Item value="AsyncMethodCaller`0" priority="0" />
       <Item value="DoSearch`0" priority="0" />
       <Item value="caller" priority="0" />
-      <Item value="productName" priority="8" />
+      <Item value="productName" priority="9" />
       <Item value="while" priority="0" />
       <Item value="isSet" priority="1" />
       <Item value="Assert`0" priority="7" />
@@ -213,6 +213,7 @@
       <Item value="NoResults" priority="1" />
       <Item value="Resources`0" priority="0" />
       <Item value="Relative" priority="0" />
+      <Item value="BeginSearch`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProductSearch.View.MainWindowView">
       <Item value="DataContext" priority="1" />

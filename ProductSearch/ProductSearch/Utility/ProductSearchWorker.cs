@@ -8,11 +8,11 @@ namespace ProductSearch.Utility
     public class ProductSearchWorker : IProductSearchWorker
     {
         private static readonly Logger Log = new Logger(typeof(ProductSearchWorker));
-        private readonly IProductSearchRepository _repo;
-        private readonly Action<ProductSearchResult> _callback;
+        private IProductSearchRepository _repo;
+        private Action<ProductSearchResult, IProductSearchWorker> _callback;
         private BackgroundWorker _searchWorker;
 
-        public ProductSearchWorker(IProductSearchRepository repo, Action<ProductSearchResult> callback, string productName)
+        public ProductSearchWorker(IProductSearchRepository repo, Action<ProductSearchResult, IProductSearchWorker> callback, string productName)
         {
             _repo = repo;
             _callback = callback;
@@ -38,12 +38,12 @@ namespace ProductSearch.Utility
         {
             if (e.Cancelled)
             {
-                _callback.Invoke(new ProductSearchResult(true, false, null));
+                _callback.Invoke(new ProductSearchResult(true, false, null), this);
             }
             else
             {
                 var result = (ProductSearchResult)e.Result;
-                _callback.Invoke(result);   
+                _callback.Invoke(result, this);   
             }
         }
 
@@ -70,6 +70,12 @@ namespace ProductSearch.Utility
 
                 e.Result = result;
             }
+        }
+
+        public void Dispose()
+        {
+            _repo = null;
+            _callback = null;
         }
     }
 }

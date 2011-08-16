@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using ProductSearch.Exceptions;
 using ProductSearch.Model;
 using ProductSearch.Utility;
 
@@ -20,9 +21,22 @@ namespace ProductSearch.DataAccess.Repository
 
         public ProductSearchResult Search(string criteria)
         {
-            var results = GetProduct(criteria);
+            Log.Debug("Search - Begin.");
 
-            return new ProductSearchResult(false, false, results.FirstOrDefault());
+            try
+            {
+                var results = GetProduct(criteria);
+                var returnVal = new ProductSearchResult(false, false, results.FirstOrDefault());
+
+                Log.Debug("Search - End.");
+
+                return returnVal;
+            }
+            catch (DataAccessException e)
+            {
+                Log.Error("Search - Error.", e);
+                return new ProductSearchResult(false, true, null);
+            }
         }
 
         private static string GetOutputFromUrl(string url)
@@ -44,31 +58,37 @@ namespace ProductSearch.DataAccess.Repository
                     return new StreamReader(response.GetResponseStream(), System.Text.Encoding.UTF8).ReadToEnd();
                 else
                 {
-                    Log.Warn(string.Format("Get - Bad HttpStatusCode: {0}", response.StatusCode));
+                    Log.Warn(string.Format("GetOutputFromUrl - Bad HttpStatusCode: {0}", response.StatusCode));
                     return null;
                 }
             }
             catch (WebException we)
             {
-                Log.Error("Get - Error.", we);
-                return null;
+                throw new DataAccessException("GetOutputFromUrl - Error.", we);
             }
             catch (Exception e)
             {
-                Log.Error("Get - Error.", e);
-                return null;
+                throw new DataAccessException("GetOutputFromUrl - Error.", e);
             }
         }
         
         private static IEnumerable<Product> GetProduct(string productName)
         {
-            var searchUrl = string.Format(SearchUrl, productName);
+            try
+            {
+                var searchUrl = string.Format(SearchUrl, productName);
 
-            var output = GetOutputFromUrl(searchUrl);
+                var output = GetOutputFromUrl(searchUrl);
 
-            var p = Utf8XmlSerializer.Deserialize<Products>(output);
+                var p = Utf8XmlSerializer.Deserialize<Products>(output);
 
-            return p;
+                return p;
+            }
+            catch (Exception e)
+            {
+                Log.Error("GetProduct - Error.", e);
+                throw new DataAccessException("GetProduct - Error.", e);
+            }
         }
 
     }

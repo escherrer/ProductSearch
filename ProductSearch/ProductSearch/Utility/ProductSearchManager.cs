@@ -18,13 +18,15 @@ namespace ProductSearch.Utility
 
         public event Action<ProductSearchResult> ResultsRecieved;
 
-        private void ProcessSearchResult(ProductSearchResult result)
+        private void ProcessSearchResult(ProductSearchResult result, IProductSearchWorker worker)
         {
             if (!result.IsCancelled)
             {
                 if (ResultsRecieved != null)
                     ResultsRecieved(result);
             }
+
+            worker.Dispose();
         }
     }
 }

@@ -15,6 +15,9 @@ namespace ProductSearch.ViewModel
         private const string SearchResultRetrievalError = "* Error retrieving results.";
         private const string SearchResultCriteriaError = "* Please enter a valid product name.";
         private const string NoResults = "* No products found matching criteria.";
+        private static readonly Uri BlankImage = new Uri("Images/blank_image.jpg", UriKind.Relative);
+        private static readonly Uri NoImage = new Uri("Images/no_image.jpg", UriKind.Relative);
+        private static readonly Uri InvalidImage = new Uri("Images/invalid_image.jpg", UriKind.Relative);
 
         public MainWindowViewModel()
         {
@@ -24,6 +27,8 @@ namespace ProductSearch.ViewModel
             _productSearchManager.ResultsRecieved += ProductSearchManagerResultsRecieved;
 
             _productSearchRepository = new BestBuyProductRepository();
+
+            ProductImage = BlankImage;
         }
 
         public decimal? ProductPrice { get; set; }
@@ -44,7 +49,7 @@ namespace ProductSearch.ViewModel
             }
             else
             {
-                ProductImage = null;
+                ProductImage = BlankImage;
                 ProductPrice = null;
                 ErrorMessage = string.Empty;
 
@@ -96,7 +101,7 @@ namespace ProductSearch.ViewModel
         {
             if (string.IsNullOrEmpty(imageUrl))
             {
-                return new Uri("Images/no_image.jpg", UriKind.Relative);
+                return NoImage;
             }
 
             try
@@ -105,7 +110,7 @@ namespace ProductSearch.ViewModel
             }
             catch
             {
-                return new Uri("Images/invalid_image.jpg", UriKind.Relative);
+                return InvalidImage;
             }
         }
     }

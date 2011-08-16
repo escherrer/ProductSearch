@@ -84,8 +84,7 @@
     <Compile Include="Converters\IsVisibleConverter.cs" />
     <Compile Include="DataAccess\Repository\BestBuyProductRepository.cs" />
     <Compile Include="DataAccess\Repository\IProductSearchRepository.cs" />
-    <Compile Include="Exceptions\AlreadySearchingException.cs" />
-    <Compile Include="Exceptions\NoSearchToCancelException.cs" />
+    <Compile Include="Exceptions\DataAccessException.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Products.cs" />
     <Compile Include="Model\ProductSearchResult.cs" />
@@ -136,6 +135,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="View\Images\no_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Images\blank_image.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

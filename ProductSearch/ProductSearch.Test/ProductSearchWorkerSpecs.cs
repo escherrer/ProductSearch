@@ -30,7 +30,7 @@ namespace ProductSearch.Test
             mockRepo.Stub(x => x.Search("product")).Return(searchResult);
 
             // Act
-            new ProductSearchWorker(mockRepo, (cb) =>
+            new ProductSearchWorker(mockRepo, (cb, worker) =>
                 {
                     Thread.Sleep(500);
                     isComplete = true;
@@ -67,7 +67,7 @@ namespace ProductSearch.Test
             });
 
             // Act
-            var searchWorker = new ProductSearchWorker(mockRepo, (cb) =>
+            var searchWorker = new ProductSearchWorker(mockRepo, (cb, worker) =>
             {
                 results = cb;
             }, "product");
@@ -95,7 +95,7 @@ namespace ProductSearch.Test
             });
 
             // Act
-            var searchWorker = new ProductSearchWorker(mockRepo, (cb) =>
+            var searchWorker = new ProductSearchWorker(mockRepo, (cb, worker) =>
             {
                 isComplete = true;
                 results = cb;

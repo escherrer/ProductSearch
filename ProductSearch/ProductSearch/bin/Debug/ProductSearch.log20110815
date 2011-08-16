@@ -1,0 +1,12 @@
+2011-08-15 23:56:05,662 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Get - Error.
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 39
+2011-08-15 23:56:05,714 ERROR ProductSearch.Utility.ProductSearchWorker: SearchWorkerDoWork - Error.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: s
+   at System.IO.StringReader..ctor(String s)
+   at ProductSearch.Utility.Utf8XmlSerializer.Deserialize[T](String xml) in C:\Git\ProductSearch\ProductSearch\ProductSearch\Utility\UTF8XmlSerializer.cs:line 45
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 69
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 23
+   at ProductSearch.Utility.ProductSearchWorker.SearchWorkerDoWork(Object sender, DoWorkEventArgs e) in C:\Git\ProductSearch\ProductSearch\ProductSearch\Utility\ProductSearchWorker.cs:line 58
