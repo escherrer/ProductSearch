@@ -13,8 +13,7 @@ namespace ProductSearch.Utility
             if (_productSearchWorker != null)
                 _productSearchWorker.CancelSearch();
 
-            _productSearchWorker = new ProductSearchWorker(repo, ProcessSearchResult);
-            _productSearchWorker.BeginSearch(productName);
+            _productSearchWorker = new ProductSearchWorker(repo, ProcessSearchResult, productName);
         }
 
         public event Action<ProductSearchResult> ResultsRecieved;

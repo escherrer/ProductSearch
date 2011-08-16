@@ -1,7 +1,7 @@
-﻿using System;
+﻿//using System;
 
-namespace ProductSearch.Exceptions
-{
-    public class NoSearchToCancelException : Exception
-    { }
-}
+//namespace ProductSearch.Exceptions
+//{
+//    public class NoSearchToCancelException : Exception
+//    { }
+//}

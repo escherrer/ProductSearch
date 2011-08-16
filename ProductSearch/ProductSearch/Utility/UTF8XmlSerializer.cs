@@ -23,7 +23,7 @@ using System.IO;
 
 namespace ProductSearch.Utility
 {
-    public class Utf8XmlSerializer
+    public static class Utf8XmlSerializer
     {
         public static string Serialize<T>(T obj)
         {

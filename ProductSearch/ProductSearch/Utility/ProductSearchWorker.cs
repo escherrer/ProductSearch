@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
 using ProductSearch.DataAccess.Repository;
-using ProductSearch.Exceptions;
 using ProductSearch.Model;
 
 namespace ProductSearch.Utility
@@ -13,17 +12,16 @@ namespace ProductSearch.Utility
         private readonly Action<ProductSearchResult> _callback;
         private BackgroundWorker _searchWorker;
 
-        public ProductSearchWorker(IProductSearchRepository repo, Action<ProductSearchResult> callback)
+        public ProductSearchWorker(IProductSearchRepository repo, Action<ProductSearchResult> callback, string productName)
         {
             _repo = repo;
             _callback = callback;
+
+            BeginSearch(productName);
         }
 
-        public void BeginSearch(string productName)
-        {
-            if (_searchWorker != null)
-                throw new AlreadySearchingException(productName);
-            
+        private void BeginSearch(string productName)
+        {            
             _searchWorker = new BackgroundWorker {WorkerSupportsCancellation = true};
             _searchWorker.DoWork += SearchWorkerDoWork;
             _searchWorker.RunWorkerCompleted += SearchWorkerCompleted;
@@ -33,9 +31,6 @@ namespace ProductSearch.Utility
 
         public void CancelSearch()
         {
-            if (_searchWorker == null)
-                throw new NoSearchToCancelException();
-
             _searchWorker.CancelAsync();
         }
 
