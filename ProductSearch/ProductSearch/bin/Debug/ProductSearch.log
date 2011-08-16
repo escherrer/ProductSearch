@@ -832,3 +832,632 @@ ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSe
    --- End of inner exception stack trace ---
    at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
    at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:47,287 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:47,500 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:47,500 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:47,472 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:47,357 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:47,357 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:47,287 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:47,914 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:47,767 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:47,827 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:47,853 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:47,941 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:47,999 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:47,999 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,032 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,129 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,180 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,154 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,129 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,245 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,245 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,268 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,245 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,245 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,278 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,268 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,292 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,300 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:52:48,351 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:52:48,361 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:18,448 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:18,460 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:18,450 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:18,662 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:18,689 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:18,716 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:18,751 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:18,761 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,293 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,304 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,318 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,330 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,341 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,360 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,363 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,418 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,425 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,457 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,431 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,506 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,536 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,536 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,584 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,584 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:55:19,536 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,560 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,611 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,638 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,664 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:55:19,690 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:56:07,068 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:56:07,081 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:56:07,103 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:56:07,113 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:56:07,139 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:56:07,148 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:56:07,199 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:56:07,208 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:56:07,229 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:56:07,243 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:56:07,251 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:56:07,268 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: GetProduct - Error.
+ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+2011-08-16 00:56:07,270 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28
+2011-08-16 00:56:07,281 ERROR ProductSearch.DataAccess.Repository.BestBuyProductRepository: Search - Error.
+ProductSearch.Exceptions.DataAccessException: GetProduct - Error. ---> ProductSearch.Exceptions.DataAccessException: GetOutputFromUrl - Error. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 53
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetOutputFromUrl(String url) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 67
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.GetProduct(String productName) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 90
+   at ProductSearch.DataAccess.Repository.BestBuyProductRepository.Search(String criteria) in C:\Git\ProductSearch\ProductSearch\ProductSearch\DataAccess\Repository\BestBuyProductRepository.cs:line 28

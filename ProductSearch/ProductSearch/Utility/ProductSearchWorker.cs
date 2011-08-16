@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Threading;
 using ProductSearch.DataAccess.Repository;
 using ProductSearch.Model;
 
@@ -11,6 +12,7 @@ namespace ProductSearch.Utility
         private IProductSearchRepository _repo;
         private Action<ProductSearchResult, IProductSearchWorker> _callback;
         private BackgroundWorker _searchWorker;
+        private readonly AutoResetEvent _searchWorkerResetEvent = new AutoResetEvent(true);
 
         public ProductSearchWorker(IProductSearchRepository repo, Action<ProductSearchResult, IProductSearchWorker> callback, string productName)
         {
@@ -45,6 +47,8 @@ namespace ProductSearch.Utility
                 var result = (ProductSearchResult)e.Result;
                 _callback.Invoke(result, this);   
             }
+
+            _searchWorkerResetEvent.Set();
         }
 
         private void SearchWorkerDoWork(object sender, DoWorkEventArgs e)
@@ -74,6 +78,8 @@ namespace ProductSearch.Utility
 
         public void Dispose()
         {
+            _searchWorkerResetEvent.WaitOne();
+
             _repo = null;
             _callback = null;
         }
