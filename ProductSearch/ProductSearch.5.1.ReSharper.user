@@ -3,54 +3,70 @@
     <string />
     <integer />
     <boolean>
-      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
     </boolean>
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:Logger.cs" caret="0" fromTop="0" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Controls/f:WaitIndicator.xaml.cs" caret="30" fromTop="0" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Controls/f:WaitIndicator.xaml" caret="35" fromTop="0" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/f:App.xaml.cs" caret="294" fromTop="15" />
       <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/f:App.config" caret="1038" fromTop="30" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Converters/f:IsVisibleConverter.cs" caret="882" fromTop="27" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="1655" fromTop="15" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="940" fromTop="30" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="511" fromTop="22" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="645" fromTop="32" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:ISearchRepository.cs" caret="182" fromTop="9" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="639" fromTop="10" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml.cs" caret="431" fromTop="17" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:IProductSearchManager.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:IProductSearchWorker.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ReflectionHelper.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:AlreadySearchingException.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Exceptions/f:NoSearchToCancelException.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:IProductSearchRepository.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Converters/f:CurrencyConverter.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Converters/f:IsVisibleConverter.cs" caret="818" fromTop="24" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:UTF8XmlSerializer.cs" caret="1642" fromTop="47" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Product.cs" caret="2840" fromTop="100" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Products.cs" caret="3388" fromTop="107" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Store.cs" caret="1267" fromTop="19" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:ProductSearchResult.cs" caret="456" fromTop="15" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="2402" fromTop="28" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="0" fromTop="0" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchWorkerSpecs.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="836" fromTop="19" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:Logger.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchManager.cs" caret="0" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:ProductSearchWorker.cs" caret="1035" fromTop="27" />
     </RecentFiles>
     <RecentEdits>
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="2471" fromTop="12" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="1054" fromTop="18" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="872" fromTop="14" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="797" fromTop="28" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="696" fromTop="22" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="698" fromTop="23" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:View/f:MainWindowView.xaml" caret="1655" fromTop="15" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="75" fromTop="0" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="1350" fromTop="47" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="747" fromTop="23" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="584" fromTop="17" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="208" fromTop="7" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="958" fromTop="30" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="147" fromTop="9" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="251" fromTop="31" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="0" fromTop="0" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="251" fromTop="17" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="86" fromTop="3" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="337" fromTop="14" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="390" fromTop="19" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="468" fromTop="20" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="514" fromTop="25" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="607" fromTop="26" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="534" fromTop="19" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="400" fromTop="19" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="647" fromTop="29" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchManagerSpecs.cs" caret="496" fromTop="20" />
-      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:SearchWorkerSpecs.cs" caret="654" fromTop="32" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:ISearchRepository.cs" caret="182" fromTop="12" />
-      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:ISearchRepository.cs" caret="96" fromTop="4" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="939" fromTop="28" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="1195" fromTop="22" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="1463" fromTop="28" />
+      <File id="5600A69A-9F4D-4947-B1AD-84AD05348BC9/f:ProductSearchManagerSpecs.cs" caret="1870" fromTop="35" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="782" fromTop="16" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="2704" fromTop="31" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="1737" fromTop="29" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3661" fromTop="36" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="2972" fromTop="15" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3523" fromTop="28" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="1220" fromTop="24" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3259" fromTop="22" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3699" fromTop="21" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3401" fromTop="26" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="3616" fromTop="35" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:ViewModel/f:MainWindowViewModel.cs" caret="13" fromTop="0" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="2354" fromTop="28" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Products.cs" caret="3388" fromTop="25" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="1046" fromTop="16" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="250" fromTop="14" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="245" fromTop="11" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Utility/f:UTF8XmlSerializer.cs" caret="1642" fromTop="47" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Product.cs" caret="2840" fromTop="100" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Products.cs" caret="3388" fromTop="107" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Store.cs" caret="3761" fromTop="32" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Store.cs" caret="3819" fromTop="120" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:Model/f:Store.cs" caret="1267" fromTop="25" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="864" fromTop="13" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="566" fromTop="9" />
+      <File id="E6236A77-C699-4F89-A7C4-BD41D0617DB3/d:DataAccess/d:Repository/f:BestBuyProductRepository.cs" caret="2221" fromTop="17" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -70,26 +86,26 @@
     </ItemStatistics>
     <ItemStatistics item="Default">
       <Item value="ViewModel" priority="0" />
-      <Item value="var" priority="1" />
-      <Item value="new" priority="2" />
+      <Item value="var" priority="21" />
+      <Item value="new" priority="36" />
       <Item value="Startup" priority="0" />
       <Item value="_contentLoaded" priority="0" />
       <Item value="mainWindowView" priority="2" />
       <Item value="mainWindowViewModel" priority="1" />
       <Item value="MainWindow" priority="0" />
-      <Item value="this" priority="0" />
+      <Item value="this" priority="1" />
       <Item value="DataContext" priority="0" />
-      <Item value="public" priority="5" />
-      <Item value="bool" priority="1" />
-      <Item value="false" priority="0" />
+      <Item value="public" priority="10" />
+      <Item value="bool" priority="2" />
+      <Item value="false" priority="10" />
       <Item value="_isSearching" priority="2" />
       <Item value="value" priority="2" />
-      <Item value="private" priority="2" />
-      <Item value="return" priority="3" />
+      <Item value="private" priority="12" />
+      <Item value="return" priority="16" />
       <Item value="RaisePropertyChanged`0" priority="0" />
       <Item value="SearchStatus" priority="0" />
-      <Item value="string" priority="1" />
-      <Item value="decimal" priority="0" />
+      <Item value="string" priority="24" />
+      <Item value="decimal" priority="3" />
       <Item value="Left" priority="0" />
       <Item value="log4net" priority="0" />
       <Item value="Appender" priority="0" />
@@ -100,16 +116,103 @@
       <Item value="Center" priority="3" />
       <Item value="TextBlock`0" priority="0" />
       <Item value="Bottom" priority="0" />
-      <Item value="IsSearching" priority="1" />
+      <Item value="IsSearching" priority="3" />
       <Item value="SearchCommand" priority="0" />
       <Item value="RelayCommand&lt;string&gt;" priority="0" />
       <Item value="object" priority="0" />
-      <Item value="Uri" priority="0" />
-      <Item value="ProductImage" priority="1" />
-      <Item value="ErrorMessage" priority="1" />
-      <Item value="ProductPrice" priority="1" />
-      <Item value="void" priority="1" />
-      <Item value="true" priority="0" />
+      <Item value="Uri" priority="5" />
+      <Item value="ProductImage" priority="3" />
+      <Item value="ErrorMessage" priority="6" />
+      <Item value="ProductPrice" priority="3" />
+      <Item value="void" priority="9" />
+      <Item value="true" priority="11" />
+      <Item value="class" priority="2" />
+      <Item value="Uri`0" priority="2" />
+      <Item value="ProductSearchResult" priority="5" />
+      <Item value="if" priority="14" />
+      <Item value="criteria" priority="1" />
+      <Item value="throw" priority="2" />
+      <Item value="Exception" priority="2" />
+      <Item value="const" priority="1" />
+      <Item value="Error" priority="0" />
+      <Item value="Random`0" priority="0" />
+      <Item value="ThreadStaticAttribute`0" priority="1" />
+      <Item value="TimeSpan" priority="1" />
+      <Item value="rand" priority="0" />
+      <Item value="SearchWorkerSpecs`0" priority="0" />
+      <Item value="AssertWasCalled`1" priority="3" />
+      <Item value="mockSearchManager" priority="1" />
+      <Item value="MockRepository`0" priority="0" />
+      <Item value="searchWorker" priority="3" />
+      <Item value="mockRepo" priority="4" />
+      <Item value="ProductSearch" priority="1" />
+      <Item value="searchResult" priority="4" />
+      <Item value="ISearchManager`0" priority="0" />
+      <Item value="_callback" priority="2" />
+      <Item value="_repo" priority="2" />
+      <Item value="IProductSearchRepository`0" priority="1" />
+      <Item value="result" priority="15" />
+      <Item value="callback" priority="2" />
+      <Item value="IAsyncResult`0" priority="3" />
+      <Item value="AsyncMethodCaller`0" priority="0" />
+      <Item value="DoSearch`0" priority="0" />
+      <Item value="caller" priority="0" />
+      <Item value="productName" priority="8" />
+      <Item value="while" priority="0" />
+      <Item value="isSet" priority="1" />
+      <Item value="Assert`0" priority="7" />
+      <Item value="worker" priority="0" />
+      <Item value="e" priority="10" />
+      <Item value="BackgroundWorker`0" priority="1" />
+      <Item value="_searchWorker" priority="5" />
+      <Item value="ProductSearchResult`0" priority="5" />
+      <Item value="cb" priority="1" />
+      <Item value="isComplete" priority="3" />
+      <Item value="null" priority="3" />
+      <Item value="Func" priority="0" />
+      <Item value="y" priority="0" />
+      <Item value="Thread`0" priority="2" />
+      <Item value="try" priority="3" />
+      <Item value="Logger`0" priority="1" />
+      <Item value="Logger" priority="1" />
+      <Item value="typeof" priority="1" />
+      <Item value="finally" priority="0" />
+      <Item value="else" priority="3" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="CancelSearch`0" priority="0" />
+      <Item value="IProductSearchManager`0" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="ProductSearchWorker`0" priority="1" />
+      <Item value="repo" priority="0" />
+      <Item value="ResultsRecieved" priority="1" />
+      <Item value="_productSearchWorker" priority="0" />
+      <Item value="AlreadySearchingException" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="NoSearchToCancelException`0" priority="0" />
+      <Item value="results" priority="1" />
+      <Item value="productSearchManager" priority="1" />
+      <Item value="lastReturnedProduct" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="callbacks" priority="1" />
+      <Item value="ProductSearchManager`0" priority="0" />
+      <Item value="_productSearchManager" priority="2" />
+      <Item value="ProductSearchManager" priority="0" />
+      <Item value="RefreshUi`0" priority="2" />
+      <Item value="readonly" priority="0" />
+      <Item value="BestBuyProductRepository`0" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="Log" priority="1" />
+      <Item value="GetProduct`0" priority="0" />
+      <Item value="response" priority="0" />
+      <Item value="Loaded" priority="0" />
+      <Item value="txtProductName" priority="0" />
+      <Item value="Product" priority="0" />
+      <Item value="imageUrl" priority="2" />
+      <Item value="fixed" priority="0" />
+      <Item value="NoResults" priority="1" />
+      <Item value="Resources`0" priority="0" />
+      <Item value="Relative" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProductSearch.View.MainWindowView">
       <Item value="DataContext" priority="1" />
@@ -120,7 +223,9 @@
       <Item value="ConverterParameter" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Format`0" priority="0" />
+      <Item value="Format`0" priority="2" />
+      <Item value="Empty" priority="7" />
+      <Item value="IsNullOrEmpty`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Windows.Window">
       <Item value="Resources" priority="0" />
@@ -142,9 +247,114 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Windows.Controls.Button">
       <Item value="CommandParameter" priority="0" />
+      <Item value="IsDefault" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Windows.Controls.Image">
       <Item value="Source" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateMock`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Utility.ISearchManager">
+      <Item value="AssertWasCalled`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.DataAccess.Repository.IProductSearchRepository">
+      <Item value="AssertWasCalled`1" priority="0" />
+      <Item value="Search`0" priority="5" />
+      <Item value="Stub`2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return`0" priority="1" />
+      <Item value="Do`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action`1">
+      <Item value="Invoke`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Utility.SearchWorker+AsyncMethodCaller">
+      <Item value="BeginInvoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Utility.SearchWorker">
+      <Item value="BeginSearch`0" priority="1" />
+      <Item value="GetArgumentsForCallsMadeOn`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IAsyncResult">
+      <Item value="CompletedSynchronously" priority="1" />
+      <Item value="IsCompleted" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue`0" priority="4" />
+      <Item value="AreEqual`0" priority="2" />
+      <Item value="AreSame`0" priority="0" />
+      <Item value="IsNull`0" priority="1" />
+      <Item value="IsNotNull`0" priority="0" />
+      <Item value="IsFalse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.BackgroundWorker">
+      <Item value="DoWork" priority="0" />
+      <Item value="RunWorkerCompleted" priority="0" />
+      <Item value="CancelAsync`0" priority="0" />
+      <Item value="RunWorkerAsync`0" priority="0" />
+      <Item value="WorkerSupportsCancellation" priority="0" />
+      <Item value="CancellationPending" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.DoWorkEventArgs">
+      <Item value="Argument" priority="1" />
+      <Item value="Result" priority="1" />
+      <Item value="Cancel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.RunWorkerCompletedEventArgs">
+      <Item value="Cancelled" priority="1" />
+      <Item value="Result" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Utility.ProductSearchWorker">
+      <Item value="CancelSearch`0" priority="2" />
+      <Item value="BeginSearch`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Model.ProductSearchResult">
+      <Item value="IsCancelled" priority="4" />
+      <Item value="HasError" priority="1" />
+      <Item value="ImageUrl" priority="1" />
+      <Item value="Price" priority="0" />
+      <Item value="Product" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Utility.ProductSearchManager">
+      <Item value="DoSearch`0" priority="1" />
+      <Item value="ResultsRecieved" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProductSearch.Utility.Logger">
+      <Item value="Error`0" priority="0" />
+      <Item value="Info`0" priority="0" />
+      <Item value="Warn`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Remix.Product">
+      <Item value="imageUrl" priority="3" />
+      <Item value="RegularPrice" priority="1" />
+      <Item value="SalePrice" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Remix.Products">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.HttpWebResponse">
+      <Item value="StatusCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Focus`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ProductSearch.Properties.Resources">
+      <Item value="no_image" priority="0" />
+      <Item value="invalid_image" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
