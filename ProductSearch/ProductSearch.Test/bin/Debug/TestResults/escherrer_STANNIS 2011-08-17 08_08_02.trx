@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="59b69286-675f-4da0-8c9e-c51e381fae9c" name="escherrer@STANNIS 2011-08-17 08:08:02" runUser="REALTIMEPOS\escherrer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6952b63-5190-4850-acc6-2e7b5c513807">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="escherrer_STANNIS 2011-08-17 08_08_02" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-17T08:08:02.2488110-04:00" queuing="2011-08-17T08:08:02.5158110-04:00" start="2011-08-17T08:08:02.6688110-04:00" finish="2011-08-17T08:08:03.0578110-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_return_error_is_true_if_error_has_occurred" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="82d15174-6373-a130-d12b-4097ec81a053">
+      <Execution timeOut="1800000" id="a574deb2-ef0f-4def-9a2a-91be9064b871" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductRepositoryHarnessSpec, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_return_error_is_true_if_error_has_occurred" />
+    </UnitTest>
+    <UnitTest name="Should_return_productSearchResult_with_correct_output" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="0139ff20-262e-9a88-471a-8223198f60d2">
+      <Execution timeOut="1800000" id="688ca4c1-d299-42bc-ad13-a6e1a3969015" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductRepositoryHarnessSpec, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_return_productSearchResult_with_correct_output" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="82d15174-6373-a130-d12b-4097ec81a053" executionId="a574deb2-ef0f-4def-9a2a-91be9064b871" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0139ff20-262e-9a88-471a-8223198f60d2" executionId="688ca4c1-d299-42bc-ad13-a6e1a3969015" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a574deb2-ef0f-4def-9a2a-91be9064b871" testId="82d15174-6373-a130-d12b-4097ec81a053" testName="Should_return_error_is_true_if_error_has_occurred" computerName="STANNIS" duration="00:00:00.2465420" startTime="2011-08-17T08:08:02.7008110-04:00" endTime="2011-08-17T08:08:02.9968110-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a574deb2-ef0f-4def-9a2a-91be9064b871">
+    </UnitTestResult>
+    <UnitTestResult executionId="688ca4c1-d299-42bc-ad13-a6e1a3969015" testId="0139ff20-262e-9a88-471a-8223198f60d2" testName="Should_return_productSearchResult_with_correct_output" computerName="STANNIS" duration="00:00:00.0027891" startTime="2011-08-17T08:08:02.9988110-04:00" endTime="2011-08-17T08:08:03.0018110-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="688ca4c1-d299-42bc-ad13-a6e1a3969015">
+    </UnitTestResult>
+  </Results>
+</TestRun>

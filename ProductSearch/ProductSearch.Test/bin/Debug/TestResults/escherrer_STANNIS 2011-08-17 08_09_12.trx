@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="15092eb1-843f-4376-a1dc-61c20f2f6dbc" name="escherrer@STANNIS 2011-08-17 08:09:12" runUser="REALTIMEPOS\escherrer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6952b63-5190-4850-acc6-2e7b5c513807">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="escherrer_STANNIS 2011-08-17 08_09_12" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-17T08:09:12.8238110-04:00" queuing="2011-08-17T08:09:13.0898110-04:00" start="2011-08-17T08:09:13.2408110-04:00" finish="2011-08-17T08:09:18.6308110-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Only_the_most_recent_search_returns_results" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="133de8c5-4999-23e0-8954-4457e1caf520">
+      <Execution timeOut="1800000" id="e89a2160-7efb-4432-bb09-412bc687edf8" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductSearchManagerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Only_the_most_recent_search_returns_results" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="133de8c5-4999-23e0-8954-4457e1caf520" executionId="e89a2160-7efb-4432-bb09-412bc687edf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e89a2160-7efb-4432-bb09-412bc687edf8" testId="133de8c5-4999-23e0-8954-4457e1caf520" testName="Only_the_most_recent_search_returns_results" computerName="STANNIS" duration="00:00:05.2494124" startTime="2011-08-17T08:09:13.2738110-04:00" endTime="2011-08-17T08:09:18.5688110-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e89a2160-7efb-4432-bb09-412bc687edf8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

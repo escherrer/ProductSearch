@@ -84,6 +84,7 @@
     <Compile Include="Converters\IsVisibleConverter.cs" />
     <Compile Include="DataAccess\Repository\BestBuyProductRepository.cs" />
     <Compile Include="DataAccess\Repository\IProductSearchRepository.cs" />
+    <Compile Include="DataAccess\Repository\ProductRepositoryHarness.cs" />
     <Compile Include="Exceptions\DataAccessException.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Products.cs" />

@@ -10,7 +10,7 @@ namespace ProductSearch.ViewModel
     public class MainWindowViewModel : ViewModelBase
     {
         private readonly ProductSearchManager _productSearchManager;
-        private readonly IProductSearchRepository _productSearchRepository;
+        private readonly IProductSearchRepository<Product> _productSearchRepository;
         private const string SearchResultDisplayError = "* Error displaying results.";
         private const string SearchResultRetrievalError = "* Error retrieving results.";
         private const string SearchResultCriteriaError = "* Please enter a valid product name.";

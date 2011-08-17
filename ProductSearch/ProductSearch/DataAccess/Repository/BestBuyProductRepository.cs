@@ -14,19 +14,19 @@ using ProductSearch.Utility;
 
 namespace ProductSearch.DataAccess.Repository
 {
-    public class BestBuyProductRepository : IProductSearchRepository
+    public class BestBuyProductRepository : IProductSearchRepository<Product>
     {
         private static readonly Logger Log = new Logger(typeof(BestBuyProductRepository));
         private const string SearchUrl = "http://api.remix.bestbuy.com/v1/products(name='{0}*')?apiKey=x4p9sbyznrgjnxwdadqz25qe";
 
-        public ProductSearchResult Search(string criteria)
+        public Product Search(string criteria)
         {
             Log.Debug("Search - Begin.");
 
             try
             {
                 var results = GetProduct(criteria);
-                var returnVal = new ProductSearchResult(false, false, results.FirstOrDefault());
+                var returnVal = results.FirstOrDefault();
 
                 Log.Debug("Search - End.");
 
@@ -35,7 +35,7 @@ namespace ProductSearch.DataAccess.Repository
             catch (DataAccessException e)
             {
                 Log.Error("Search - Error.", e);
-                return new ProductSearchResult(false, true, null);
+                return null;
             }
         }
 

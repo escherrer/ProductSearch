@@ -6,7 +6,7 @@ namespace ProductSearch.Utility
 {
     public interface IProductSearchManager
     {
-        void DoSearch(string productName, IProductSearchRepository repo);
+        void DoSearch(string productName, IProductSearchRepository<Product> repo);
 
         event Action<ProductSearchResult> ResultsRecieved;
     }

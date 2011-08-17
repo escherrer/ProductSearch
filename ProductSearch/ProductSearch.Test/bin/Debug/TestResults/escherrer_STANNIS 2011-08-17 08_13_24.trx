@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3b295edc-3ee3-42a2-aff6-256314fb312e" name="escherrer@STANNIS 2011-08-17 08:13:24" runUser="REALTIMEPOS\escherrer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6952b63-5190-4850-acc6-2e7b5c513807">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="escherrer_STANNIS 2011-08-17 08_13_24" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-17T08:13:24.0438110-04:00" queuing="2011-08-17T08:13:24.3108110-04:00" start="2011-08-17T08:13:24.4608110-04:00" finish="2011-08-17T08:13:31.9118110-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="When_a_search_is_performed_it_queries_the_repo_and_returns_results_asyncronously" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="d6b1356a-3806-48ad-bb0d-e27475158d2a">
+      <Execution timeOut="1800000" id="14734bcf-3ae5-460b-8aa0-1922ff089825" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductSearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_is_performed_it_queries_the_repo_and_returns_results_asyncronously" />
+    </UnitTest>
+    <UnitTest name="When_a_search_is_performed_and_the_repository_fails_results_indicate_an_error_occurred" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="0999264e-6f26-b1ae-9673-0e04617969b9">
+      <Execution timeOut="1800000" id="9b312fe4-4e10-4c1f-84a0-2d11858789d5" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductSearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_is_performed_and_the_repository_fails_results_indicate_an_error_occurred" />
+    </UnitTest>
+    <UnitTest name="When_a_search_is_cancelled_it_calls_back_with_a_cancelled_result" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="beb8a403-a833-dcca-7429-520795433071">
+      <Execution timeOut="1800000" id="d1c85628-df3d-4f36-b1cc-4e7b07c8a7ef" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.ProductSearchWorkerSpecs, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_a_search_is_cancelled_it_calls_back_with_a_cancelled_result" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="beb8a403-a833-dcca-7429-520795433071" executionId="d1c85628-df3d-4f36-b1cc-4e7b07c8a7ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0999264e-6f26-b1ae-9673-0e04617969b9" executionId="9b312fe4-4e10-4c1f-84a0-2d11858789d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6b1356a-3806-48ad-bb0d-e27475158d2a" executionId="14734bcf-3ae5-460b-8aa0-1922ff089825" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d1c85628-df3d-4f36-b1cc-4e7b07c8a7ef" testId="beb8a403-a833-dcca-7429-520795433071" testName="When_a_search_is_cancelled_it_calls_back_with_a_cancelled_result" computerName="STANNIS" duration="00:00:05.2441804" startTime="2011-08-17T08:13:24.4938110-04:00" endTime="2011-08-17T08:13:29.7888110-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1c85628-df3d-4f36-b1cc-4e7b07c8a7ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b312fe4-4e10-4c1f-84a0-2d11858789d5" testId="0999264e-6f26-b1ae-9673-0e04617969b9" testName="When_a_search_is_performed_and_the_repository_fails_results_indicate_an_error_occurred" computerName="STANNIS" duration="00:00:01.0116097" startTime="2011-08-17T08:13:29.7908110-04:00" endTime="2011-08-17T08:13:30.8028110-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b312fe4-4e10-4c1f-84a0-2d11858789d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="14734bcf-3ae5-460b-8aa0-1922ff089825" testId="d6b1356a-3806-48ad-bb0d-e27475158d2a" testName="When_a_search_is_performed_it_queries_the_repo_and_returns_results_asyncronously" computerName="STANNIS" duration="00:00:01.0029361" startTime="2011-08-17T08:13:30.8058110-04:00" endTime="2011-08-17T08:13:31.8088110-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14734bcf-3ae5-460b-8aa0-1922ff089825">
+    </UnitTestResult>
+  </Results>
+</TestRun>

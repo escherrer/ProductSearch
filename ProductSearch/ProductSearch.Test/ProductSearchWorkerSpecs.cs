@@ -24,10 +24,10 @@ namespace ProductSearch.Test
             ProductSearchResult results = null;
 
             // Arrange
-            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
-            var searchResult = new ProductSearchResult(false, false, null);
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository<Product>>();
+            var product = new Product(string.Empty, string.Empty);
 
-            mockRepo.Stub(x => x.Search("product")).Return(searchResult);
+            mockRepo.Stub(x => x.Search("product")).Return(product);
 
             // Act
             new ProductSearchWorker(mockRepo, (cb, worker) =>
@@ -47,7 +47,7 @@ namespace ProductSearch.Test
 
             // Assert
             mockRepo.AssertWasCalled(x => x.Search("product"));
-            Assert.AreSame(searchResult, results);
+            Assert.AreSame(product, results.Product);
             Assert.IsFalse(results.IsCancelled);
         }
 
@@ -57,10 +57,10 @@ namespace ProductSearch.Test
             ProductSearchResult results = null;
 
             // Arrange
-            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
-            var searchResult = new ProductSearchResult(false, false, null);
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository<Product>>();
+            var searchResult = new Product(string.Empty, string.Empty);
 
-            mockRepo.Stub(x => x.Search("product")).Do((Func<string, ProductSearchResult>) delegate
+            mockRepo.Stub(x => x.Search("product")).Do((Func<string, Product>) delegate
             {
                 Thread.Sleep(2000);
                 return searchResult;
@@ -86,16 +86,15 @@ namespace ProductSearch.Test
             ProductSearchResult results = null;
 
             // Arrange
-            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
-            var searchResult = new ProductSearchResult(false, false, null);
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository<Product>>();
 
-            mockRepo.Stub(x => x.Search("product")).Do((Func<string, ProductSearchResult>)delegate
+            mockRepo.Stub(x => x.Search("product")).Do((Func<string, Product>)delegate
             {
                 throw new Exception();
             });
 
             // Act
-            var searchWorker = new ProductSearchWorker(mockRepo, (cb, worker) =>
+            new ProductSearchWorker(mockRepo, (cb, worker) =>
             {
                 isComplete = true;
                 results = cb;

@@ -9,12 +9,12 @@ namespace ProductSearch.Utility
     public class ProductSearchWorker : IProductSearchWorker
     {
         private static readonly Logger Log = new Logger(typeof(ProductSearchWorker));
-        private IProductSearchRepository _repo;
+        private IProductSearchRepository<Product> _repo;
         private Action<ProductSearchResult, IProductSearchWorker> _callback;
         private BackgroundWorker _searchWorker;
         private readonly AutoResetEvent _searchWorkerResetEvent = new AutoResetEvent(true);
 
-        public ProductSearchWorker(IProductSearchRepository repo, Action<ProductSearchResult, IProductSearchWorker> callback, string productName)
+        public ProductSearchWorker(IProductSearchRepository<Product> repo, Action<ProductSearchResult, IProductSearchWorker> callback, string productName)
         {
             _repo = repo;
             _callback = callback;
@@ -59,7 +59,10 @@ namespace ProductSearch.Utility
             {
                 var productName = (string)e.Argument;
 
-                result = _repo.Search(productName);
+                using (var harness = new ProductRepositoryHarness(_repo))
+                {
+                    result = harness.Search(productName);
+                }
             }
             catch (Exception ex)
             {

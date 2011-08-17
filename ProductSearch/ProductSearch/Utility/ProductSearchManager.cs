@@ -8,7 +8,7 @@ namespace ProductSearch.Utility
     {
         private ProductSearchWorker _productSearchWorker;
         
-        public void DoSearch(string productName, IProductSearchRepository repo)
+        public void DoSearch(string productName, IProductSearchRepository<Product> repo)
         {
             if (_productSearchWorker != null)
                 _productSearchWorker.CancelSearch();

@@ -20,26 +20,26 @@ namespace ProductSearch.Test
         [TestMethod]
         public void Only_the_most_recent_search_returns_results()
         {
-            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository>();
+            var mockRepo = MockRepository.GenerateMock<IProductSearchRepository<Product>>();
             string lastReturnedProduct = null;
             var callbacks = 0;
 
-            mockRepo.Stub(x => x.Search("product1")).Do((Func<string, ProductSearchResult>) delegate
+            mockRepo.Stub(x => x.Search("product1")).Do((Func<string, Product>) delegate
             {
                 Thread.Sleep(1000);
-                return new ProductSearchResult(false, false, new Product("product1Url", "5m"));
+                return new Product("product1Url", "5m");
             });
 
-            mockRepo.Stub(x => x.Search("product2")).Do((Func<string, ProductSearchResult>)delegate
+            mockRepo.Stub(x => x.Search("product2")).Do((Func<string, Product>)delegate
             {
                 Thread.Sleep(200);
-                return new ProductSearchResult(false, false, new Product("product2Url", "5m"));
+                return new Product("product2Url", "5m");
             });
 
-            mockRepo.Stub(x => x.Search("product3")).Do((Func<string, ProductSearchResult>)delegate
+            mockRepo.Stub(x => x.Search("product3")).Do((Func<string, Product>)delegate
             {
                 Thread.Sleep(500);
-                return new ProductSearchResult(false, false, new Product("product3Url", "5m"));
+                return new Product("product3Url", "5m");
             });
 
             var productSearchManager = new ProductSearchManager();

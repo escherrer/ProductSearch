@@ -1,10 +1,8 @@
-﻿using ProductSearch.Model;
-
-namespace ProductSearch.DataAccess.Repository
+﻿namespace ProductSearch.DataAccess.Repository
 {
-    public interface IProductSearchRepository
+    public interface IProductSearchRepository<T>
     {
-        ProductSearchResult Search(string criteria);
+        T Search(string criteria);
     }
 }
 
