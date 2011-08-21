@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d5599ebf-eb90-4b8f-a9b7-cee62fd2e825" name="tammy@MAOW 2011-08-21 16:56:35" runUser="Maow\tammy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6952b63-5190-4850-acc6-2e7b5c513807">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="tammy_MAOW 2011-08-21 16_56_35" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-21T16:56:35.6632000-04:00" queuing="2011-08-21T16:56:36.2716000-04:00" start="2011-08-21T16:56:36.6304000-04:00" finish="2011-08-21T16:56:44.5084000-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_BestBuy_search_with_no_image" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="af2a26c1-6066-4cb3-1703-2f21c71bce5d">
+      <Execution timeOut="1800000" id="5cbebd3a-71c2-4ac9-a047-ff5c1e207cd5" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.BestBuyProductSearchIntegration, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_BestBuy_search_with_no_image" />
+    </UnitTest>
+    <UnitTest name="Test_BestBuy_successful_search" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="1140dd42-be33-8502-db4f-808bce9e5925">
+      <Execution timeOut="1800000" id="3899f0c3-fb92-450a-8510-f7d83fdd9789" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.BestBuyProductSearchIntegration, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_BestBuy_successful_search" />
+    </UnitTest>
+    <UnitTest name="Test_BestBuy_failed_search" storage="c:\git\productsearch\productsearch\productsearch.test\bin\debug\productsearch.test.dll" id="059b4d38-525c-794a-cdc6-5aa7abffd91a">
+      <Execution timeOut="1800000" id="83252513-83f7-43ac-947c-faca816c9d20" />
+      <TestMethod codeBase="C:/Git/ProductSearch/ProductSearch/ProductSearch.Test/bin/Debug/ProductSearch.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductSearch.Test.BestBuyProductSearchIntegration, ProductSearch.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_BestBuy_failed_search" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="059b4d38-525c-794a-cdc6-5aa7abffd91a" executionId="83252513-83f7-43ac-947c-faca816c9d20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af2a26c1-6066-4cb3-1703-2f21c71bce5d" executionId="5cbebd3a-71c2-4ac9-a047-ff5c1e207cd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1140dd42-be33-8502-db4f-808bce9e5925" executionId="3899f0c3-fb92-450a-8510-f7d83fdd9789" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="83252513-83f7-43ac-947c-faca816c9d20" testId="059b4d38-525c-794a-cdc6-5aa7abffd91a" testName="Test_BestBuy_failed_search" computerName="MAOW" duration="00:00:01.9897561" startTime="2011-08-21T16:56:36.7240000-04:00" endTime="2011-08-21T16:56:38.8144000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83252513-83f7-43ac-947c-faca816c9d20">
+    </UnitTestResult>
+    <UnitTestResult executionId="5cbebd3a-71c2-4ac9-a047-ff5c1e207cd5" testId="af2a26c1-6066-4cb3-1703-2f21c71bce5d" testName="Test_BestBuy_search_with_no_image" computerName="MAOW" duration="00:00:05.0088262" startTime="2011-08-21T16:56:38.8612000-04:00" endTime="2011-08-21T16:56:43.8688000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cbebd3a-71c2-4ac9-a047-ff5c1e207cd5">
+    </UnitTestResult>
+    <UnitTestResult executionId="3899f0c3-fb92-450a-8510-f7d83fdd9789" testId="1140dd42-be33-8502-db4f-808bce9e5925" testName="Test_BestBuy_successful_search" computerName="MAOW" duration="00:00:00.5183234" startTime="2011-08-21T16:56:43.8688000-04:00" endTime="2011-08-21T16:56:44.3992000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3899f0c3-fb92-450a-8510-f7d83fdd9789">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -18,16 +18,13 @@ namespace ProductSearch.Test
 
             var vm = new MainWindowViewModel();
 
-            vm.SearchCommand.Execute("iphone");
+            vm.SearchCommand.Execute("abcdefghi");
 
-            Assert.IsTrue(vm.IsSearching);
+            while (vm.IsSearching)
+                Thread.Sleep(500);
 
-            Thread.Sleep(5000);
-
-            Assert.IsFalse(vm.IsSearching);
-
-            Assert.AreEqual(29.99m, vm.ProductPrice);
-            Assert.AreEqual("http://images.bestbuy.com/BestBuy_US/images/products/9321/9321245_s.gif", vm.ProductImage.ToString());
+            Assert.AreEqual(9.99m, vm.ProductPrice);
+            Assert.AreEqual("http://images.bestbuy.com/BestBuy_US/images/products/1490/14906211s.jpg", vm.ProductImage.ToString());
         }
 
         [TestMethod]
@@ -43,11 +40,8 @@ namespace ProductSearch.Test
 
             vm.SearchCommand.Execute("hgjhgj");
 
-            Assert.IsTrue(vm.IsSearching);
-
-            Thread.Sleep(5000);
-
-            Assert.IsFalse(vm.IsSearching);
+            while (vm.IsSearching)
+                Thread.Sleep(500);
 
             Assert.IsNull(vm.ProductPrice);
             Assert.AreEqual("Images/blank_image.jpg", vm.ProductImage.ToString());
